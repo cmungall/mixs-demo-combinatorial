@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Type: built environment - {{schema.description}}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Type: built environment";
+    var mkdocs_page_input_path = "BuiltEnvironment.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> {{schema.description}}</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">{{schema.description}}</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Type: built environment</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="type-built-environment">Type: built environment</h1>
+<p>built environment</p>
+<p>URI: <a href="https://w3id.org/mixs/vocab/BuiltEnvironment">mixs.vocab:BuiltEnvironment</a></p>
+<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[BuiltEnvironment&#124;surf_material:string%20%3F;surf_air_cont:string%20%3F;rel_air_humidity:string%20%3F;abs_air_humidity:string%20%3F;surf_humidity:string%20%3F;air_temp:string%20%3F;surf_temp:string%20%3F;surf_moisture_ph:string%20%3F;build_occup_type:string%20%3F;surf_moisture:string%20%3F;dew_point:string%20%3F;carb_dioxide:string%20%3F;ventilation_type:string%20%3F;organism_count:string%20%3F;indoor_space:string%20%3F;indoor_surf:string%20%3F;filter_type:string%20%3F;heat_cool_type:string%20%3F;substructure_type:string%20%3F;building_setting:string%20%3F;light_type:string%20%3F;samp_sort_meth:string%20%3F;space_typ_state:string%20%3F;typ_occup_density:string%20%3F;occup_samp:string%20%3F;occup_density_samp:string%20%3F;address:string%20%3F;adj_room:string%20%3F;aero_struc:string%20%3F;amount_light:string%20%3F;arch_struc:string%20%3F;avg_occup:string%20%3F;avg_dew_point:string%20%3F;avg_temp:string%20%3F;bathroom_count:string%20%3F;bedroom_count:string%20%3F;built_struc_age:string%20%3F;built_struc_set:string%20%3F;built_struc_type:string%20%3F;ceil_area:string%20%3F;ceil_cond:string%20%3F;ceil_finish_mat:string%20%3F;ceil_water_mold:string%20%3F;ceil_struc:string%20%3F;ceil_texture:string%20%3F;ceil_thermal_mass:string%20%3F;ceil_type:string%20%3F;cool_syst_id:string%20%3F;date_last_rain:string%20%3F;build_docs:string%20%3F;door_size:string%20%3F;door_cond:string%20%3F;door_direct:string%20%3F;door_loc:string%20%3F;door_mat:string%20%3F;door_move:string%20%3F;door_water_mold:string%20%3F;door_type:string%20%3F;door_comp_type:string%20%3F;door_type_metal:string%20%3F;door_type_wood:string%20%3F;drawings:string%20%3F;elevator:string%20%3F;escalator:string%20%3F;exp_duct:string%20%3F;exp_pipe:string%20%3F;ext_door:string%20%3F;fireplace_type:string%20%3F;floor_age:string%20%3F;floor_area:string%20%3F;floor_cond:string%20%3F;floor_count:string%20%3F;floor_finish_mat:string%20%3F;floor_water_mold:string%20%3F;floor_struc:string%20%3F;floor_thermal_mass:string%20%3F;freq_clean:string%20%3F;freq_cook:string%20%3F;furniture:string%20%3F;gender_restroom:string%20%3F;hall_count:string%20%3F;handidness:string%20%3F;heat_deliv_loc:string%20%3F;heat_system_deliv_meth:string%20%3F;heat_system_id:string%20%3F;height_carper_fiber:string%20%3F;inside_lux:string%20%3F;int_wall_cond:string%20%3F;last_clean:string%20%3F;max_occup:string%20%3F;mech_struc:string%20%3F;number_plants:string%20%3F;number_pets:string%20%3F;number_resident:string%20%3F;occup_document:string%20%3F;ext_wall_orient:string%20%3F;ext_window_orient:string%20%3F;rel_humidity_out:string%20%3F;pres_animal:string%20%3F;quad_pos:string%20%3F;rel_samp_loc:string%20%3F;room_air_exch_rate:string%20%3F;room_architec_element:string%20%3F;room_condt:string%20%3F;room_count:string%20%3F;room_dim:string%20%3F;room_door_dist:string%20%3F;room_loc:string%20%3F;room_moist_damage_hist:string%20%3F;room_net_area:string%20%3F;room_occup:string%20%3F;room_samp_pos:string%20%3F;room_type:string%20%3F;room_vol:string%20%3F;room_window_count:string%20%3F;room_connected:string%20%3F;room_hallway:string%20%3F;room_door_share:string%20%3F;room_wall_share:string%20%3F;samp_weather:string%20%3F;samp_floor:string%20%3F;samp_room_id:string%20%3F;samp_time_out:string%20%3F;season:string%20%3F;season_use:string%20%3F;shading_device_cond:string%20%3F;shading_device_loc:string%20%3F;shading_device_mat:string%20%3F;shading_device_water_mold:string%20%3F;shading_device_type:string%20%3F;specific_humidity:string%20%3F;specific:string%20%3F;temp_out:string%20%3F;train_line:string%20%3F;train_stat_loc:string%20%3F;train_stop_loc:string%20%3F;vis_media:string%20%3F;wall_area:string%20%3F;wall_const_type:string%20%3F;wall_finish_mat:string%20%3F;wall_height:string%20%3F;wall_loc:string%20%3F;wall_water_mold:string%20%3F;wall_surf_treatment:string%20%3F;wall_texture:string%20%3F;wall_thermal_mass:string%20%3F;water_feat_size:string%20%3F;water_feat_type:string%20%3F;weekday:string%20%3F;window_size:string%20%3F;window_cond:string%20%3F;window_cover:string%20%3F;window_horiz_pos:string%20%3F;window_loc:string%20%3F;window_mat:string%20%3F;window_open_freq:string%20%3F;window_water_mold:string%20%3F;window_status:string%20%3F;window_type:string%20%3F;window_vert_pos:string%20%3F]" /></p>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../abs_air_humidity/">abs_air_humidity</a>  <sub>OPT</sub><ul>
+<li>Description: Actual mass of water vapor - mh20 - present in the air water vapor mixture</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 9 gram per gram None</li>
+</ul>
+</li>
+<li><a href="../address/">address</a>  <sub>OPT</sub><ul>
+<li>Description: The street name and building number where the sampling occurred.</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../adj_room/">adj_room</a>  <sub>OPT</sub><ul>
+<li>Description: List of rooms (room number, room name) immediately adjacent to the sampling room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../aero_struc/">aero_struc</a>  <sub>OPT</sub><ul>
+<li>Description: Aerospace structures typically consist of thin plates with stiffeners for the external surfaces, bulkheads and frames to support the shape and fasteners such as welds, rivets, screws and bolts to hold the components together</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: plane None</li>
+</ul>
+</li>
+<li><a href="../air_temp/">air_temp</a>  <sub>OPT</sub><ul>
+<li>Description: Temperature of the air at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 20 degree Celsius None</li>
+</ul>
+</li>
+<li><a href="../amount_light/">amount_light</a>  <sub>OPT</sub><ul>
+<li>Description: The unit of illuminance and luminous emittance, measuring luminous flux per unit area</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../arch_struc/">arch_struc</a>  <sub>OPT</sub><ul>
+<li>Description: An architectural structure is a human-made, free-standing, immobile outdoor construction</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: shed None</li>
+</ul>
+</li>
+<li><a href="../avg_dew_point/">avg_dew_point</a>  <sub>OPT</sub><ul>
+<li>Description: The average of dew point measures taken at the beginning of every hour over a 24 hour period on the sampling day</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 25.5 degree Celsius None</li>
+</ul>
+</li>
+<li><a href="../avg_occup/">avg_occup</a>  <sub>OPT</sub><ul>
+<li>Description: Daily average occupancy of room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 2 None</li>
+</ul>
+</li>
+<li><a href="../avg_temp/">avg_temp</a>  <sub>OPT</sub><ul>
+<li>Description: The average of temperatures taken at the beginning of every hour over a 24 hour period on the sampling day</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 12.5 degree Celsius None</li>
+</ul>
+</li>
+<li><a href="../bathroom_count/">bathroom_count</a>  <sub>OPT</sub><ul>
+<li>Description: The number of bathrooms in the building</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 1 None</li>
+</ul>
+</li>
+<li><a href="../bedroom_count/">bedroom_count</a>  <sub>OPT</sub><ul>
+<li>Description: The number of bedrooms in the building</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 2 None</li>
+</ul>
+</li>
+<li><a href="../build_docs/">build_docs</a>  <sub>OPT</sub><ul>
+<li>Description: The building design, construction and operation documents</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: maintenance plans None</li>
+</ul>
+</li>
+<li><a href="../build_occup_type/">build_occup_type</a>  <sub>OPT</sub><ul>
+<li>Description: The primary function for which a building or discrete part of a building is intended to be used</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: market None</li>
+</ul>
+</li>
+<li><a href="../building_setting/">building_setting</a>  <sub>OPT</sub><ul>
+<li>Description: A location (geography) where a building is set</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: rural None</li>
+</ul>
+</li>
+<li><a href="../built_struc_age/">built_struc_age</a>  <sub>OPT</sub><ul>
+<li>Description: The age of the built structure since construction</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 15 None</li>
+</ul>
+</li>
+<li><a href="../built_struc_set/">built_struc_set</a>  <sub>OPT</sub><ul>
+<li>Description: The characterization of the location of the built structure as high or low human density</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: rural None</li>
+</ul>
+</li>
+<li><a href="../built_struc_type/">built_struc_type</a>  <sub>OPT</sub><ul>
+<li>Description: A physical structure that is a body or assemblage of bodies in space to form a system capable of supporting loads</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../carb_dioxide/">carb_dioxide</a>  <sub>OPT</sub><ul>
+<li>Description: Carbon dioxide (gas) amount or concentration at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 410 parts per million None</li>
+</ul>
+</li>
+<li><a href="../ceil_area/">ceil_area</a>  <sub>OPT</sub><ul>
+<li>Description: The area of the ceiling space within the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 25 square meter None</li>
+</ul>
+</li>
+<li><a href="../ceil_cond/">ceil_cond</a>  <sub>OPT</sub><ul>
+<li>Description: The physical condition of the ceiling at the time of sampling; photos or video preferred; use drawings to indicate location of damaged areas</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: damaged None</li>
+</ul>
+</li>
+<li><a href="../ceil_finish_mat/">ceil_finish_mat</a>  <sub>OPT</sub><ul>
+<li>Description: The type of material used to finish a ceiling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: stucco None</li>
+</ul>
+</li>
+<li><a href="../ceil_struc/">ceil_struc</a>  <sub>OPT</sub><ul>
+<li>Description: The construction format of the ceiling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: concrete None</li>
+</ul>
+</li>
+<li><a href="../ceil_texture/">ceil_texture</a>  <sub>OPT</sub><ul>
+<li>Description: The feel, appearance, or consistency of a ceiling surface</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: popcorn None</li>
+</ul>
+</li>
+<li><a href="../ceil_thermal_mass/">ceil_thermal_mass</a>  <sub>OPT</sub><ul>
+<li>Description: The ability of the ceiling to provide inertia against temperature fluctuations. Generally this means concrete that is exposed. A metal deck that supports a concrete slab will act thermally as long as it is exposed to room air flow</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../ceil_type/">ceil_type</a>  <sub>OPT</sub><ul>
+<li>Description: The type of ceiling according to the ceiling's appearance or construction</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: coffered None</li>
+</ul>
+</li>
+<li><a href="../ceil_water_mold/">ceil_water_mold</a>  <sub>OPT</sub><ul>
+<li>Description: Signs of the presence of mold or mildew on the ceiling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: presence of mold visible None</li>
+</ul>
+</li>
+<li><a href="../cool_syst_id/">cool_syst_id</a>  <sub>OPT</sub><ul>
+<li>Description: The cooling system identifier</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 12345 None</li>
+</ul>
+</li>
+<li><a href="../date_last_rain/">date_last_rain</a>  <sub>OPT</sub><ul>
+<li>Description: The date of the last time it rained</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 2018-05-11:T14:30Z None</li>
+</ul>
+</li>
+<li><a href="../dew_point/">dew_point</a>  <sub>OPT</sub><ul>
+<li>Description: The temperature to which a given parcel of humid air must be cooled, at constant barometric pressure, for water vapor to condense into water.</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 22 degree Celsius None</li>
+</ul>
+</li>
+<li><a href="../door_comp_type/">door_comp_type</a>  <sub>OPT</sub><ul>
+<li>Description: The composite type of the door</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: revolving None</li>
+</ul>
+</li>
+<li><a href="../door_cond/">door_cond</a>  <sub>OPT</sub><ul>
+<li>Description: The phsical condition of the door</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: new None</li>
+</ul>
+</li>
+<li><a href="../door_direct/">door_direct</a>  <sub>OPT</sub><ul>
+<li>Description: The direction the door opens</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: inward None</li>
+</ul>
+</li>
+<li><a href="../door_loc/">door_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The relative location of the door in the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: north None</li>
+</ul>
+</li>
+<li><a href="../door_mat/">door_mat</a>  <sub>OPT</sub><ul>
+<li>Description: The material the door is composed of</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: wood None</li>
+</ul>
+</li>
+<li><a href="../door_move/">door_move</a>  <sub>OPT</sub><ul>
+<li>Description: The type of movement of the door</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: swinging None</li>
+</ul>
+</li>
+<li><a href="../door_size/">door_size</a>  <sub>OPT</sub><ul>
+<li>Description: The size of the door</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 2.5 square meter None</li>
+</ul>
+</li>
+<li><a href="../door_type/">door_type</a>  <sub>OPT</sub><ul>
+<li>Description: The type of door material</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: wooden None</li>
+</ul>
+</li>
+<li><a href="../door_type_metal/">door_type_metal</a>  <sub>OPT</sub><ul>
+<li>Description: The type of metal door</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: hollow None</li>
+</ul>
+</li>
+<li><a href="../door_type_wood/">door_type_wood</a>  <sub>OPT</sub><ul>
+<li>Description: The type of wood door</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: battened None</li>
+</ul>
+</li>
+<li><a href="../door_water_mold/">door_water_mold</a>  <sub>OPT</sub><ul>
+<li>Description: Signs of the presence of mold or mildew on a door</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: presence of mold visible None</li>
+</ul>
+</li>
+<li><a href="../drawings/">drawings</a>  <sub>OPT</sub><ul>
+<li>Description: The buildings architectural drawings; if design is chosen, indicate phase-conceptual, schematic, design development, and construction documents</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: sketch None</li>
+</ul>
+</li>
+<li><a href="../elevator/">elevator</a>  <sub>OPT</sub><ul>
+<li>Description: The number of elevators within the built structure</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 2 None</li>
+</ul>
+</li>
+<li><a href="../escalator/">escalator</a>  <sub>OPT</sub><ul>
+<li>Description: The number of escalators within the built structure</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 4 None</li>
+</ul>
+</li>
+<li><a href="../exp_duct/">exp_duct</a>  <sub>OPT</sub><ul>
+<li>Description: The amount of exposed ductwork in the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../exp_pipe/">exp_pipe</a>  <sub>OPT</sub><ul>
+<li>Description: The number of exposed pipes in the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../ext_door/">ext_door</a>  <sub>OPT</sub><ul>
+<li>Description: The number of exterior doors in the built structure</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../ext_wall_orient/">ext_wall_orient</a>  <sub>OPT</sub><ul>
+<li>Description: The orientation of the exterior wall</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: northwest None</li>
+</ul>
+</li>
+<li><a href="../ext_window_orient/">ext_window_orient</a>  <sub>OPT</sub><ul>
+<li>Description: The compass direction the exterior window of the room is facing</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: southwest None</li>
+</ul>
+</li>
+<li><a href="../filter_type/">filter_type</a>  <sub>OPT</sub><ul>
+<li>Description: A device which removes solid particulates or airborne molecular contaminants</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: HEPA None</li>
+</ul>
+</li>
+<li><a href="../fireplace_type/">fireplace_type</a>  <sub>OPT</sub><ul>
+<li>Description: A firebox with chimney</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: wood burning None</li>
+</ul>
+</li>
+<li><a href="../floor_age/">floor_age</a>  <sub>OPT</sub><ul>
+<li>Description: The time period since installment of the carpet or flooring</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../floor_area/">floor_area</a>  <sub>OPT</sub><ul>
+<li>Description: The area of the floor space within the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../floor_cond/">floor_cond</a>  <sub>OPT</sub><ul>
+<li>Description: The physical condition of the floor at the time of sampling; photos or video preferred; use drawings to indicate location of damaged areas</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: new None</li>
+</ul>
+</li>
+<li><a href="../floor_count/">floor_count</a>  <sub>OPT</sub><ul>
+<li>Description: The number of floors in the building, including basements and mechanical penthouse</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../floor_finish_mat/">floor_finish_mat</a>  <sub>OPT</sub><ul>
+<li>Description: The floor covering type; the finished surface that is walked on</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: carpet None</li>
+</ul>
+</li>
+<li><a href="../floor_struc/">floor_struc</a>  <sub>OPT</sub><ul>
+<li>Description: Refers to the structural elements and subfloor upon which the finish flooring is installed</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: concrete None</li>
+</ul>
+</li>
+<li><a href="../floor_thermal_mass/">floor_thermal_mass</a>  <sub>OPT</sub><ul>
+<li>Description: The ability of the floor to provide inertia against temperature fluctuations</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../floor_water_mold/">floor_water_mold</a>  <sub>OPT</sub><ul>
+<li>Description: Signs of the presence of mold or mildew in a room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: ceiling discoloration None</li>
+</ul>
+</li>
+<li><a href="../freq_clean/">freq_clean</a>  <sub>OPT</sub><ul>
+<li>Description: The number of times the building is cleaned per week</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../freq_cook/">freq_cook</a>  <sub>OPT</sub><ul>
+<li>Description: The number of times a meal is cooked per week</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../furniture/">furniture</a>  <sub>OPT</sub><ul>
+<li>Description: The types of furniture present in the sampled room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: chair None</li>
+</ul>
+</li>
+<li><a href="../gender_restroom/">gender_restroom</a>  <sub>OPT</sub><ul>
+<li>Description: The gender type of the restroom</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: male None</li>
+</ul>
+</li>
+<li><a href="../hall_count/">hall_count</a>  <sub>OPT</sub><ul>
+<li>Description: The total count of hallways and cooridors in the built structure</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../handidness/">handidness</a>  <sub>OPT</sub><ul>
+<li>Description: The handidness of the individual sampled</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: right handedness None</li>
+</ul>
+</li>
+<li><a href="../heat_cool_type/">heat_cool_type</a>  <sub>OPT</sub><ul>
+<li>Description: Methods of conditioning or heating a room or building</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: heat pump None</li>
+</ul>
+</li>
+<li><a href="../heat_deliv_loc/">heat_deliv_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The location of heat delivery within the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: north None</li>
+</ul>
+</li>
+<li><a href="../heat_system_deliv_meth/">heat_system_deliv_meth</a>  <sub>OPT</sub><ul>
+<li>Description: The method by which the heat is delivered through the system</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: radiant None</li>
+</ul>
+</li>
+<li><a href="../heat_system_id/">heat_system_id</a>  <sub>OPT</sub><ul>
+<li>Description: The heating system identifier</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../height_carper_fiber/">height_carper_fiber</a>  <sub>OPT</sub><ul>
+<li>Description: The average carpet fiber height in the indoor environment</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../indoor_space/">indoor_space</a>  <sub>OPT</sub><ul>
+<li>Description: A distinguishable space within a structure, the purpose for which discrete areas of a building is used</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: foyer None</li>
+</ul>
+</li>
+<li><a href="../indoor_surf/">indoor_surf</a>  <sub>OPT</sub><ul>
+<li>Description: Type of indoor surface</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: wall None</li>
+</ul>
+</li>
+<li><a href="../inside_lux/">inside_lux</a>  <sub>OPT</sub><ul>
+<li>Description: The recorded value at sampling time (power density)</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../int_wall_cond/">int_wall_cond</a>  <sub>OPT</sub><ul>
+<li>Description: The physical condition of the wall at the time of sampling; photos or video preferred; use drawings to indicate location of damaged areas</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: damaged None</li>
+</ul>
+</li>
+<li><a href="../last_clean/">last_clean</a>  <sub>OPT</sub><ul>
+<li>Description: The last time the floor was cleaned (swept, mopped, vacuumed)</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 2018-05-11:T14:30Z None</li>
+</ul>
+</li>
+<li><a href="../light_type/">light_type</a>  <sub>OPT</sub><ul>
+<li>Description: Application of light to achieve some practical or aesthetic effect. Lighting includes the use of both artificial light sources such as lamps and light fixtures, as well as natural illumination by capturing daylight. Can also include absence of light</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: desk lamp None</li>
+</ul>
+</li>
+<li><a href="../max_occup/">max_occup</a>  <sub>OPT</sub><ul>
+<li>Description: The maximum amount of people allowed in the indoor environment</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../mech_struc/">mech_struc</a>  <sub>OPT</sub><ul>
+<li>Description: mechanical structure: a moving structure</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: elevator None</li>
+</ul>
+</li>
+<li><a href="../number_pets/">number_pets</a>  <sub>OPT</sub><ul>
+<li>Description: The number of pets residing in the sampled space</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../number_plants/">number_plants</a>  <sub>OPT</sub><ul>
+<li>Description: The number of plant(s) in the sampling space</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../number_resident/">number_resident</a>  <sub>OPT</sub><ul>
+<li>Description: The number of individuals currently occupying in the sampling location</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../occup_density_samp/">occup_density_samp</a>  <sub>OPT</sub><ul>
+<li>Description: Average number of occupants at time of sampling per square footage</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../occup_document/">occup_document</a>  <sub>OPT</sub><ul>
+<li>Description: The type of documentation of occupancy</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: estimate None</li>
+</ul>
+</li>
+<li><a href="../occup_samp/">occup_samp</a>  <sub>OPT</sub><ul>
+<li>Description: Number of occupants present at time of sample within the given space</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 10 None</li>
+</ul>
+</li>
+<li><a href="../organism_count/">organism_count</a>  <sub>OPT</sub><ul>
+<li>Description: Total cell count of any organism (or group of organisms) per gram, volume or area of sample, should include name of organism followed by count. The method that was used for the enumeration (e.g. qPCR, atp, mpn, etc.) Should also be provided. (example: total prokaryotes; 3.5e7 cells per ml; qpcr)</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: total prokaryotes;3.5e7 cells per milliliter;qPCR None</li>
+</ul>
+</li>
+<li><a href="../pres_animal/">pres_animal</a>  <sub>OPT</sub><ul>
+<li>Description: The number and type of animals present in the sampling space</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: cat;5 None</li>
+</ul>
+</li>
+<li><a href="../quad_pos/">quad_pos</a>  <sub>OPT</sub><ul>
+<li>Description: The quadrant position of the sampling room within the building</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: West side None</li>
+</ul>
+</li>
+<li><a href="../rel_air_humidity/">rel_air_humidity</a>  <sub>OPT</sub><ul>
+<li>Description: Partial vapor and air pressure, density of the vapor and air, or by the actual mass of the vapor and air</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 80% None</li>
+</ul>
+</li>
+<li><a href="../rel_humidity_out/">rel_humidity_out</a>  <sub>OPT</sub><ul>
+<li>Description: The recorded outside relative humidity value at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 12 per kilogram of air None</li>
+</ul>
+</li>
+<li><a href="../rel_samp_loc/">rel_samp_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The sampling location within the train car</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: center of car None</li>
+</ul>
+</li>
+<li><a href="../room_air_exch_rate/">room_air_exch_rate</a>  <sub>OPT</sub><ul>
+<li>Description: The rate at which outside air replaces indoor air in a given space</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_architec_element/">room_architec_element</a>  <sub>OPT</sub><ul>
+<li>Description: The unique details and component parts that, together, form the architecture of a distinguisahable space within a built structure</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_condt/">room_condt</a>  <sub>OPT</sub><ul>
+<li>Description: The condition of the room at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: new None</li>
+</ul>
+</li>
+<li><a href="../room_connected/">room_connected</a>  <sub>OPT</sub><ul>
+<li>Description: List of rooms connected to the sampling room by a doorway</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: office None</li>
+</ul>
+</li>
+<li><a href="../room_count/">room_count</a>  <sub>OPT</sub><ul>
+<li>Description: The total count of rooms in the built structure including all room types</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_dim/">room_dim</a>  <sub>OPT</sub><ul>
+<li>Description: The length, width and height of sampling room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_door_dist/">room_door_dist</a>  <sub>OPT</sub><ul>
+<li>Description: Distance between doors (meters) in the hallway between the sampling room and adjacent rooms</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_door_share/">room_door_share</a>  <sub>OPT</sub><ul>
+<li>Description: List of room(s) (room number, room name) sharing a door with the sampling room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_hallway/">room_hallway</a>  <sub>OPT</sub><ul>
+<li>Description: List of room(s) (room number, room name) located in the same hallway as sampling room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_loc/">room_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The position of the room within the building</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: interior room None</li>
+</ul>
+</li>
+<li><a href="../room_moist_damage_hist/">room_moist_damage_hist</a>  <sub>OPT</sub><ul>
+<li>Description: The history of moisture damage or mold in the past 12 months. Number of events of moisture damage or mold observed</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_net_area/">room_net_area</a>  <sub>OPT</sub><ul>
+<li>Description: The net floor area of sampling room. Net area excludes wall thicknesses</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_occup/">room_occup</a>  <sub>OPT</sub><ul>
+<li>Description: Count of room occupancy at time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_samp_pos/">room_samp_pos</a>  <sub>OPT</sub><ul>
+<li>Description: The horizontal sampling position in the room relative to architectural elements</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: south corner None</li>
+</ul>
+</li>
+<li><a href="../room_type/">room_type</a>  <sub>OPT</sub><ul>
+<li>Description: The main purpose or activity of the sampling room. A room is any distinguishable space within a structure</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: bathroom None</li>
+</ul>
+</li>
+<li><a href="../room_vol/">room_vol</a>  <sub>OPT</sub><ul>
+<li>Description: Volume of sampling room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_wall_share/">room_wall_share</a>  <sub>OPT</sub><ul>
+<li>Description: List of room(s) (room number, room name) sharing a wall with the sampling room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../room_window_count/">room_window_count</a>  <sub>OPT</sub><ul>
+<li>Description: Number of windows in the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../samp_floor/">samp_floor</a>  <sub>OPT</sub><ul>
+<li>Description: The floor of the building, where the sampling room is located</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 4th floor None</li>
+</ul>
+</li>
+<li><a href="../samp_room_id/">samp_room_id</a>  <sub>OPT</sub><ul>
+<li>Description: Sampling room number. This ID should be consistent with the designations on the building floor plans</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../samp_sort_meth/">samp_sort_meth</a>  <sub>OPT</sub><ul>
+<li>Description: Method by which samples are sorted; open face filter collecting total suspended particles, prefilter to remove particles larger than X micrometers in diameter, where common values of X would be 10 and 2.5 full size sorting in a cascade impactor.</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../samp_time_out/">samp_time_out</a>  <sub>OPT</sub><ul>
+<li>Description: The recent and long term history of outside sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../samp_weather/">samp_weather</a>  <sub>OPT</sub><ul>
+<li>Description: The weather on the sampling day</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: foggy None</li>
+</ul>
+</li>
+<li><a href="../season/">season</a>  <sub>OPT</sub><ul>
+<li>Description: The season when sampling occurred. Any of the four periods into which the year is divided by the equinoxes and solstices. This field accepts terms listed under season (http://purl.obolibrary.org/obo/NCIT_C94729).</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: autumn [NCIT:C94733] None</li>
+</ul>
+</li>
+<li><a href="../season_use/">season_use</a>  <sub>OPT</sub><ul>
+<li>Description: The seasons the space is occupied</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: Winter None</li>
+</ul>
+</li>
+<li><a href="../shading_device_cond/">shading_device_cond</a>  <sub>OPT</sub><ul>
+<li>Description: The physical condition of the shading device at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: new None</li>
+</ul>
+</li>
+<li><a href="../shading_device_loc/">shading_device_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The location of the shading device in relation to the built structure</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: exterior None</li>
+</ul>
+</li>
+<li><a href="../shading_device_mat/">shading_device_mat</a>  <sub>OPT</sub><ul>
+<li>Description: The material the shading device is composed of</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../shading_device_type/">shading_device_type</a>  <sub>OPT</sub><ul>
+<li>Description: The type of shading device</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: slatted aluminum awning None</li>
+</ul>
+</li>
+<li><a href="../shading_device_water_mold/">shading_device_water_mold</a>  <sub>OPT</sub><ul>
+<li>Description: Signs of the presence of mold or mildew on the shading device</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: no presence of mold visible None</li>
+</ul>
+</li>
+<li><a href="../space_typ_state/">space_typ_state</a>  <sub>OPT</sub><ul>
+<li>Description: Customary or normal state of the space</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: typically occupied None</li>
+</ul>
+</li>
+<li><a href="../specific/">specific</a>  <sub>OPT</sub><ul>
+<li>Description: The building specifications. If design is chosen, indicate phase: conceptual, schematic, design development, construction documents</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: construction None</li>
+</ul>
+</li>
+<li><a href="../specific_humidity/">specific_humidity</a>  <sub>OPT</sub><ul>
+<li>Description: The mass of water vapour in a unit mass of moist air, usually expressed as grams of vapour per kilogram of air, or, in air conditioning, as grains per pound.</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 15 per kilogram of air None</li>
+</ul>
+</li>
+<li><a href="../substructure_type/">substructure_type</a>  <sub>OPT</sub><ul>
+<li>Description: The substructure or under building is that largely hidden section of the building which is built off the foundations to the ground floor level</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: basement None</li>
+</ul>
+</li>
+<li><a href="../surf_air_cont/">surf_air_cont</a>  <sub>OPT</sub><ul>
+<li>Description: Contaminant identified on surface</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: radon None</li>
+</ul>
+</li>
+<li><a href="../surf_humidity/">surf_humidity</a>  <sub>OPT</sub><ul>
+<li>Description: Surfaces: water activity as a function of air and material moisture</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 10% None</li>
+</ul>
+</li>
+<li><a href="../surf_material/">surf_material</a>  <sub>OPT</sub><ul>
+<li>Description: Surface materials at the point of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: wood None</li>
+</ul>
+</li>
+<li><a href="../surf_moisture/">surf_moisture</a>  <sub>OPT</sub><ul>
+<li>Description: Water held on a surface</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 0.01 gram per square meter None</li>
+</ul>
+</li>
+<li><a href="../surf_moisture_ph/">surf_moisture_ph</a>  <sub>OPT</sub><ul>
+<li>Description: ph measurement of surface</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 7 None</li>
+</ul>
+</li>
+<li><a href="../surf_temp/">surf_temp</a>  <sub>OPT</sub><ul>
+<li>Description: Temperature of the surface at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 15 degree Celsius None</li>
+</ul>
+</li>
+<li><a href="../temp_out/">temp_out</a>  <sub>OPT</sub><ul>
+<li>Description: The recorded temperature value at sampling time outside</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 5 degree Celsius None</li>
+</ul>
+</li>
+<li><a href="../train_line/">train_line</a>  <sub>OPT</sub><ul>
+<li>Description: The subway line name</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: red None</li>
+</ul>
+</li>
+<li><a href="../train_stat_loc/">train_stat_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The train station collection location</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: forest hills None</li>
+</ul>
+</li>
+<li><a href="../train_stop_loc/">train_stop_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The train stop collection location</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: end None</li>
+</ul>
+</li>
+<li><a href="../typ_occup_density/">typ_occup_density</a>  <sub>OPT</sub><ul>
+<li>Description: Customary or normal density of occupants</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 25 None</li>
+</ul>
+</li>
+<li><a href="../ventilation_type/">ventilation_type</a>  <sub>OPT</sub><ul>
+<li>Description: Ventilation system used in the sampled premises</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: Operable windows None</li>
+</ul>
+</li>
+<li><a href="../vis_media/">vis_media</a>  <sub>OPT</sub><ul>
+<li>Description: The building visual media</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 3D scans None</li>
+</ul>
+</li>
+<li><a href="../wall_area/">wall_area</a>  <sub>OPT</sub><ul>
+<li>Description: The total area of the sampled room's walls</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../wall_const_type/">wall_const_type</a>  <sub>OPT</sub><ul>
+<li>Description: The building class of the wall defined by the composition of the building elements and fire-resistance rating.</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: fire resistive None</li>
+</ul>
+</li>
+<li><a href="../wall_finish_mat/">wall_finish_mat</a>  <sub>OPT</sub><ul>
+<li>Description: The material utilized to finish the outer most layer of the wall</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: wood None</li>
+</ul>
+</li>
+<li><a href="../wall_height/">wall_height</a>  <sub>OPT</sub><ul>
+<li>Description: The average height of the walls in the sampled room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../wall_loc/">wall_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The relative location of the wall within the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: north None</li>
+</ul>
+</li>
+<li><a href="../wall_surf_treatment/">wall_surf_treatment</a>  <sub>OPT</sub><ul>
+<li>Description: The surface treatment of interior wall</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: paneling None</li>
+</ul>
+</li>
+<li><a href="../wall_texture/">wall_texture</a>  <sub>OPT</sub><ul>
+<li>Description: The feel, appearance, or consistency of a wall surface</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: popcorn None</li>
+</ul>
+</li>
+<li><a href="../wall_thermal_mass/">wall_thermal_mass</a>  <sub>OPT</sub><ul>
+<li>Description: The ability of the wall to provide inertia against temperature fluctuations. Generally this means concrete or concrete block that is either exposed or covered only with paint</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../wall_water_mold/">wall_water_mold</a>  <sub>OPT</sub><ul>
+<li>Description: Signs of the presence of mold or mildew on a wall</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: no presence of mold visible None</li>
+</ul>
+</li>
+<li><a href="../water_feat_size/">water_feat_size</a>  <sub>OPT</sub><ul>
+<li>Description: The size of the water feature</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../water_feat_type/">water_feat_type</a>  <sub>OPT</sub><ul>
+<li>Description: The type of water feature present within the building being sampled</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: stream None</li>
+</ul>
+</li>
+<li><a href="../weekday/">weekday</a>  <sub>OPT</sub><ul>
+<li>Description: The day of the week when sampling occurred</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: Sunday None</li>
+</ul>
+</li>
+<li><a href="../window_cond/">window_cond</a>  <sub>OPT</sub><ul>
+<li>Description: The physical condition of the window at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: rupture None</li>
+</ul>
+</li>
+<li><a href="../window_cover/">window_cover</a>  <sub>OPT</sub><ul>
+<li>Description: The type of window covering</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: curtains None</li>
+</ul>
+</li>
+<li><a href="../window_horiz_pos/">window_horiz_pos</a>  <sub>OPT</sub><ul>
+<li>Description: The horizontal position of the window on the wall</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: middle None</li>
+</ul>
+</li>
+<li><a href="../window_loc/">window_loc</a>  <sub>OPT</sub><ul>
+<li>Description: The relative location of the window within the room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: west None</li>
+</ul>
+</li>
+<li><a href="../window_mat/">window_mat</a>  <sub>OPT</sub><ul>
+<li>Description: The type of material used to finish a window</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: wood None</li>
+</ul>
+</li>
+<li><a href="../window_open_freq/">window_open_freq</a>  <sub>OPT</sub><ul>
+<li>Description: The number of times windows are opened per week</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../window_size/">window_size</a>  <sub>OPT</sub><ul>
+<li>Description: The window's length and width</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example:  None</li>
+</ul>
+</li>
+<li><a href="../window_status/">window_status</a>  <sub>OPT</sub><ul>
+<li>Description: Defines whether the windows were open or closed during environmental testing</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: open None</li>
+</ul>
+</li>
+<li><a href="../window_type/">window_type</a>  <sub>OPT</sub><ul>
+<li>Description: The type of windows</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: fixed window None</li>
+</ul>
+</li>
+<li><a href="../window_vert_pos/">window_vert_pos</a>  <sub>OPT</sub><ul>
+<li>Description: The vertical position of the window on the wall</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: middle None</li>
+</ul>
+</li>
+<li><a href="../window_water_mold/">window_water_mold</a>  <sub>OPT</sub><ul>
+<li>Description: Signs of the presence of mold or mildew on the window.</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: no presence of mold visible None</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
