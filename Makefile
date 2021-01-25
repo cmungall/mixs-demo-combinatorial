@@ -23,12 +23,16 @@ tdir-%:
 docs:
 	mkdir $@
 
+deploy: $(patsubst %,deploy-%,$(TGTS))
+deploy-%:
+	cp -pr target/$* .
+
 # Generate documentation ready for mkdocs
 gen-docs: $(SCHEMA_SRC) tdir-docs
 	pipenv run gen-markdown --dir target/docs $<
 .PHONY: gen-docs
 deploy-docs:
-	cp -pr target/docs/* docs/
+	cp -pr target/docs .
 
 gen-owl: target/owl/$(SCHEMA_NAME).owl.ttl
 .PHONY: gen-owl
@@ -40,32 +44,32 @@ gen-python: target/python/$(SCHEMA_NAME).py
 target/python/%.py: $(SCHEMA_SRC)  tdir-python
 	gen-py-classes $< > $@
 
-gen-graphql:target/graphql/%.graphql 
+gen-graphql:target/graphql/$(SCHEMA_NAME).graphql 
 target/graphql/%.graphql: $(SCHEMA_SRC) tdir-graphql
 	gen-graphql $< > $@
 
-gen-jsonschema: target/jsonschema/%.schema.json
+gen-jsonschema: target/jsonschema/$(SCHEMA_NAME).schema.json
 target/jsonschema/%.schema.json: $(SCHEMA_SRC) tdir-jsonschema
 	gen-json-schema -t transaction $< > $@
 
-gen-shex: target/shex/%.shex
+gen-shex: target/shex/$(SCHEMA_NAME).shex
 target/shex/%.shex: $(SCHEMA_SRC) tdir-shex
 	gen-shex $< > $@
 
-gen-csv:  target/csv/%.csv
+gen-csv:  target/csv/$(SCHEMA_NAME).csv
 target/csv/%.csv: $(SCHEMA_SRC) tdir-csv
 	gen-csv $< > $@
 
-gen-rdf: target/rdf/%.ttl
+gen-rdf: target/rdf/$(SCHEMA_NAME).ttl
 target/rdf/%.ttl: $(SCHEMA_SRC) tdir-rdf
 	gen-rdf $< > $@
 
-gen-linkml: target/linkml/%.yaml
+gen-linkml: target/linkml/$(SCHEMA_NAME).yaml
 target/linkml/%.yaml: $(SCHEMA_SRC) tdir-limkml
 	cp $< > $@
 
-#target/schema/%-docs: $(SCHEMA_SRC)
-#	pipenv run gen-markdown --dir $@ $<
-
 docserve:
 	mkdocs serve
+
+gh-deploy:
+	mkdocs gh-deploy

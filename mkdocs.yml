@@ -1,4 +1,4 @@
-site_name: "{{schema.description}}"
+site_name: "MIxS6 (DRAFT/DEMO)"
 theme: readthedocs
 nav:
   - Home: index.md

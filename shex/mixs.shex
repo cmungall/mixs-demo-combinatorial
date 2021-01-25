@@ -1,0 +1,1232 @@
+BASE <https://w3id.org/mixs/vocab/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX MIXS: <https://w3id.org/mixs/terms/>
+PREFIX metatype: <https://w3id.org/biolink/biolinkml/meta/types/>
+
+
+metatype:String xsd:string
+
+metatype:Integer xsd:integer
+
+metatype:Boolean xsd:boolean
+
+metatype:Float xsd:float
+
+metatype:Double xsd:double
+
+metatype:Decimal xsd:decimal
+
+metatype:Time xsd:dateTime
+
+metatype:Date xsd:date
+
+metatype:Datetime xsd:dateTime
+
+metatype:Uriorcurie IRI
+
+metatype:Uri IRI
+
+metatype:Ncname xsd:string
+
+metatype:Objectidentifier IRI
+
+metatype:Nodeidentifier NONLITERAL
+
+<Air> CLOSED {
+    (  $<Air_tes> (  MIXS:0000096 @metatype:String ? ;
+          MIXS:0000097 @metatype:String ? ;
+          MIXS:0000098 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000100 @metatype:String ? ;
+          MIXS:0000101 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000104 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000107 @metatype:String ? ;
+          MIXS:0000108 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000112 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000114 @metatype:String ? ;
+          MIXS:0000756 @metatype:String ? ;
+          MIXS:0000115 @metatype:String ? ;
+          MIXS:0000757 @metatype:String ? ;
+          MIXS:0000118 @metatype:String ?
+       ) ;
+       rdf:type [ <Air> ] ?
+    )
+}
+
+<BuiltEnvironment> CLOSED {
+    (  $<BuiltEnvironment_tes> (  MIXS:0000758 @metatype:String ? ;
+          MIXS:0000759 @metatype:String ? ;
+          MIXS:0000121 @metatype:String ? ;
+          MIXS:0000122 @metatype:String ? ;
+          MIXS:0000123 @metatype:String ? ;
+          MIXS:0000124 @metatype:String ? ;
+          MIXS:0000125 @metatype:String ? ;
+          MIXS:0000760 @metatype:String ? ;
+          MIXS:0000761 @metatype:String ? ;
+          MIXS:0000128 @metatype:String ? ;
+          MIXS:0000129 @metatype:String ? ;
+          MIXS:0000097 @metatype:String ? ;
+          MIXS:0000756 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000763 @metatype:String ? ;
+          MIXS:0000764 @metatype:String ? ;
+          MIXS:0000765 @metatype:String ? ;
+          MIXS:0000766 @metatype:String ? ;
+          MIXS:0000767 @metatype:String ? ;
+          MIXS:0000768 @metatype:String ? ;
+          MIXS:0000769 @metatype:String ? ;
+          MIXS:0000216 @metatype:String ? ;
+          MIXS:0000770 @metatype:String ? ;
+          MIXS:0000771 @metatype:String ? ;
+          MIXS:0000772 @metatype:String ? ;
+          MIXS:0000217 @metatype:String ? ;
+          MIXS:0000218 @metatype:String ? ;
+          MIXS:0000219 @metatype:String ? ;
+          MIXS:0000773 @metatype:String ? ;
+          MIXS:0000140 @metatype:String ? ;
+          MIXS:0000774 @metatype:String ? ;
+          MIXS:0000775 @metatype:String ? ;
+          MIXS:0000141 @metatype:String ? ;
+          MIXS:0000142 @metatype:String ? ;
+          MIXS:0000776 @metatype:String ? ;
+          MIXS:0000777 @metatype:String ? ;
+          MIXS:0000145 @metatype:String ? ;
+          MIXS:0000778 @metatype:String ? ;
+          MIXS:0000721 @metatype:String ? ;
+          MIXS:0000148 @metatype:String ? ;
+          MIXS:0000779 @metatype:String ? ;
+          MIXS:0000780 @metatype:String ? ;
+          MIXS:0000781 @metatype:String ? ;
+          MIXS:0000782 @metatype:String ? ;
+          MIXS:0000783 @metatype:String ? ;
+          MIXS:0000143 @metatype:String ? ;
+          MIXS:0000784 @metatype:String ? ;
+          MIXS:0000785 @metatype:String ? ;
+          MIXS:0000786 @metatype:String ? ;
+          MIXS:0000787 @metatype:String ? ;
+          MIXS:0000158 @metatype:String ? ;
+          MIXS:0000788 @metatype:String ? ;
+          MIXS:0000789 @metatype:String ? ;
+          MIXS:0000790 @metatype:String ? ;
+          MIXS:0000791 @metatype:String ? ;
+          MIXS:0000792 @metatype:String ? ;
+          MIXS:0000793 @metatype:String ? ;
+          MIXS:0000794 @metatype:String ? ;
+          MIXS:0000795 @metatype:String ? ;
+          MIXS:0000796 @metatype:String ? ;
+          MIXS:0000797 @metatype:String ? ;
+          MIXS:0000798 @metatype:String ? ;
+          MIXS:0000799 @metatype:String ? ;
+          MIXS:0000800 @metatype:String ? ;
+          MIXS:0000144 @metatype:String ? ;
+          MIXS:0000220 @metatype:String ? ;
+          MIXS:0000170 @metatype:String ? ;
+          MIXS:0000802 @metatype:String ? ;
+          MIXS:0000164 @metatype:String ? ;
+          MIXS:0000165 @metatype:String ? ;
+          MIXS:0000803 @metatype:String ? ;
+          MIXS:0000225 @metatype:String ? ;
+          MIXS:0000804 @metatype:String ? ;
+          MIXS:0000805 @metatype:String ? ;
+          MIXS:0000806 @metatype:String ? ;
+          MIXS:0000166 @metatype:String ? ;
+          MIXS:0000226 @metatype:String ? ;
+          MIXS:0000227 @metatype:String ? ;
+          MIXS:0000807 @metatype:String ? ;
+          MIXS:0000808 @metatype:String ? ;
+          MIXS:0000228 @metatype:String ? ;
+          MIXS:0000809 @metatype:String ? ;
+          MIXS:0000810 @metatype:String ? ;
+          MIXS:0000812 @metatype:String ? ;
+          MIXS:0000833 @metatype:String ? ;
+          MIXS:0000167 @metatype:String ? ;
+          MIXS:0000168 @metatype:String ? ;
+          MIXS:0000813 @metatype:String ? ;
+          MIXS:0000814 @metatype:String ? ;
+          MIXS:0000229 @metatype:String ? ;
+          MIXS:0000815 @metatype:String ? ;
+          MIXS:0000230 @metatype:String ? ;
+          MIXS:0000231 @metatype:String ? ;
+          MIXS:0000232 @metatype:String ? ;
+          MIXS:0000816 @metatype:String ? ;
+          MIXS:0000817 @metatype:String ? ;
+          MIXS:0000818 @metatype:String ? ;
+          MIXS:0000188 @metatype:String ? ;
+          MIXS:0000819 @metatype:String ? ;
+          MIXS:0000820 @metatype:String ? ;
+          MIXS:0000821 @metatype:String ? ;
+          MIXS:0000169 @metatype:String ? ;
+          MIXS:0000233 @metatype:String ? ;
+          MIXS:0000822 @metatype:String ? ;
+          MIXS:0000234 @metatype:String ? ;
+          MIXS:0000192 @metatype:String ? ;
+          MIXS:0000193 @metatype:String ? ;
+          MIXS:0000823 @metatype:String ? ;
+          MIXS:0000235 @metatype:String ? ;
+          MIXS:0000194 @metatype:String ? ;
+          MIXS:0000236 @metatype:String ? ;
+          MIXS:0000824 @metatype:String ? ;
+          MIXS:0000825 @metatype:String ? ;
+          MIXS:0000195 @metatype:String ? ;
+          MIXS:0000237 @metatype:String ? ;
+          MIXS:0000826 @metatype:String ? ;
+          MIXS:0000238 @metatype:String ? ;
+          MIXS:0000242 @metatype:String ? ;
+          MIXS:0000243 @metatype:String ? ;
+          MIXS:0000827 @metatype:String ? ;
+          MIXS:0000828 @metatype:String ? ;
+          MIXS:0000244 @metatype:String ? ;
+          MIXS:0000196 @metatype:String ? ;
+          MIXS:0000829 @metatype:String ? ;
+          MIXS:0000830 @metatype:String ? ;
+          MIXS:0000831 @metatype:String ? ;
+          MIXS:0000832 @metatype:String ? ;
+          MIXS:0000245 @metatype:String ? ;
+          MIXS:0000834 @metatype:String ? ;
+          MIXS:0000835 @metatype:String ? ;
+          MIXS:0000214 @metatype:String ? ;
+          MIXS:0000836 @metatype:String ? ;
+          MIXS:0000197 @metatype:String ? ;
+          MIXS:0000837 @metatype:String ? ;
+          MIXS:0000838 @metatype:String ? ;
+          MIXS:0000839 @metatype:String ? ;
+          MIXS:0000840 @metatype:String ? ;
+          MIXS:0000198 @metatype:String ? ;
+          MIXS:0000841 @metatype:String ? ;
+          MIXS:0000842 @metatype:String ? ;
+          MIXS:0000221 @metatype:String ? ;
+          MIXS:0000843 @metatype:String ? ;
+          MIXS:0000844 @metatype:String ? ;
+          MIXS:0000845 @metatype:String ? ;
+          MIXS:0000846 @metatype:String ? ;
+          MIXS:0000222 @metatype:String ? ;
+          MIXS:0000223 @metatype:String ? ;
+          MIXS:0000847 @metatype:String ? ;
+          MIXS:0000848 @metatype:String ? ;
+          MIXS:0000224 @metatype:String ? ;
+          MIXS:0000849 @metatype:String ? ;
+          MIXS:0000850 @metatype:String ? ;
+          MIXS:0000851 @metatype:String ? ;
+          MIXS:0000852 @metatype:String ? ;
+          MIXS:0000853 @metatype:String ? ;
+          MIXS:0000246 @metatype:String ? ;
+          MIXS:0000854 @metatype:String ? ;
+          MIXS:0000855 @metatype:String ? ;
+          MIXS:0000856 @metatype:String ? ;
+          MIXS:0000857 @metatype:String ?
+       ) ;
+       rdf:type [ <BuiltEnvironment> ] ?
+    )
+}
+
+<Core> CLOSED {
+    (  $<Core_tes> (  <submitted_to_insdc> @metatype:String ? ;
+          <investigation_type> @metatype:String ? ;
+          <sample_name> @metatype:String ? ;
+          <project_name> @metatype:String ? ;
+          <experimental_factor> @metatype:String ? ;
+          <lat_lon> @metatype:String ? ;
+          <depth> @metatype:String ? ;
+          <alt> @metatype:String ? ;
+          <elev> @metatype:String ? ;
+          <geo_loc_name> @metatype:String ? ;
+          <collection_date> @metatype:String ? ;
+          <env_broad_scale> @metatype:String ? ;
+          <env_local_scale> @metatype:String ? ;
+          <env_medium> @metatype:String ? ;
+          <env_package> @metatype:String ? ;
+          <subspecf_gen_lin> @metatype:String ? ;
+          <ploidy> @metatype:String ? ;
+          <num_replicons> @metatype:String ? ;
+          <extrachrom_elements> @metatype:String ? ;
+          <estimated_size> @metatype:String ? ;
+          <ref_biomaterial> @metatype:String ? ;
+          <source_mat_id> @metatype:String ? ;
+          <pathogenicity> @metatype:String ? ;
+          <biotic_relationship> @metatype:String ? ;
+          <specific_host> @metatype:String ? ;
+          <host_spec_range> @metatype:String ? ;
+          <health_disease_stat> @metatype:String ? ;
+          <trophic_level> @metatype:String ? ;
+          <propagation> @metatype:String ? ;
+          <encoded_traits> @metatype:String ? ;
+          <rel_to_oxygen> @metatype:String ? ;
+          <isol_growth_condt> @metatype:String ? ;
+          <samp_collect_device> @metatype:String ? ;
+          <samp_mat_process> @metatype:String ? ;
+          <size_frac> @metatype:String ? ;
+          <samp_size> @metatype:String ? ;
+          <source_uvig> @metatype:String ? ;
+          <virus_enrich_appr> @metatype:String ? ;
+          <nucl_acid_ext> @metatype:String ? ;
+          <nucl_acid_amp> @metatype:String ? ;
+          <lib_size> @metatype:String ? ;
+          <lib_reads_seqd> @metatype:String ? ;
+          <lib_layout> @metatype:String ? ;
+          <lib_vector> @metatype:String ? ;
+          <lib_screen> @metatype:String ? ;
+          <target_gene> @metatype:String ? ;
+          <target_subfragment> @metatype:String ? ;
+          <pcr_primers> @metatype:String ? ;
+          <mid> @metatype:String ? ;
+          <adapters> @metatype:String ? ;
+          <pcr_cond> @metatype:String ? ;
+          <seq_meth> @metatype:String ? ;
+          <seq_quality_check> @metatype:String ? ;
+          <chimera_check> @metatype:String ? ;
+          <tax_ident> @metatype:String ? ;
+          <assembly_qual> @metatype:String ? ;
+          <assembly_name> @metatype:String ? ;
+          <assembly_software> @metatype:String ? ;
+          <annot> @metatype:String ? ;
+          <number_contig> @metatype:String ? ;
+          <feat_pred> @metatype:String ? ;
+          <ref_db> @metatype:String ? ;
+          <sim_search_meth> @metatype:String ? ;
+          <tax_class> @metatype:String ? ;
+          <x_16s_recover> @metatype:String ? ;
+          <x_16s_recover_software> @metatype:String ? ;
+          <trnas> @metatype:String ? ;
+          <trna_ext_software> @metatype:String ? ;
+          <compl_score> @metatype:String ? ;
+          <compl_software> @metatype:String ? ;
+          <compl_appr> @metatype:String ? ;
+          <contam_score> @metatype:String ? ;
+          <contam_screen_input> @metatype:String ? ;
+          <contam_screen_param> @metatype:String ? ;
+          <decontam_software> @metatype:String ? ;
+          <sort_tech> @metatype:String ? ;
+          <single_cell_lysis_appr> @metatype:String ? ;
+          <single_cell_lysis_prot> @metatype:String ? ;
+          <wga_amp_appr> @metatype:String ? ;
+          <wga_amp_kit> @metatype:String ? ;
+          <bin_param> @metatype:String ? ;
+          <bin_software> @metatype:String ? ;
+          <reassembly_bin> @metatype:String ? ;
+          <mag_cov_software> @metatype:String ? ;
+          <vir_ident_software> @metatype:String ? ;
+          <pred_genome_type> @metatype:String ? ;
+          <pred_genome_struc> @metatype:String ? ;
+          <detec_type> @metatype:String ? ;
+          <votu_class_appr> @metatype:String ? ;
+          <votu_seq_comp_appr> @metatype:String ? ;
+          <votu_db> @metatype:String ? ;
+          <host_pred_appr> @metatype:String ? ;
+          <host_pred_est_acc> @metatype:String ? ;
+          <url> @metatype:String ? ;
+          <sop> @metatype:String ?
+       ) ;
+       rdf:type [ <Core> ] ?
+    )
+}
+
+<Host-associated> CLOSED {
+    (  $<Host-associated_tes> (  MIXS:0000247 @metatype:String ? ;
+          MIXS:0000858 @metatype:String ? ;
+          MIXS:0000859 @metatype:String ? ;
+          MIXS:0000248 @metatype:String ? ;
+          MIXS:0000860 @metatype:String ? ;
+          MIXS:0000249 @metatype:String ? ;
+          MIXS:0000250 @metatype:String ? ;
+          MIXS:0000861 @metatype:String ? ;
+          MIXS:0000255 @metatype:String ? ;
+          MIXS:0000251 @metatype:String ? ;
+          MIXS:0000811 @metatype:String ? ;
+          MIXS:0000031 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000866 @metatype:String ? ;
+          MIXS:0000867 @metatype:String ? ;
+          MIXS:0000888 @metatype:String ? ;
+          MIXS:0000263 @metatype:String ? ;
+          MIXS:0000264 @metatype:String ? ;
+          MIXS:0000256 @metatype:String ? ;
+          MIXS:0000869 @metatype:String ? ;
+          MIXS:0000870 @metatype:String ? ;
+          MIXS:0000871 @metatype:String ? ;
+          MIXS:0000252 @metatype:String ? ;
+          MIXS:0000872 @metatype:String ? ;
+          MIXS:0000253 @metatype:String ? ;
+          MIXS:0000254 @metatype:String ? ;
+          MIXS:0000365 @metatype:String ? ;
+          MIXS:0000874 @metatype:String ? ;
+          MIXS:0000274 @metatype:String ? ;
+          MIXS:0000257 @metatype:String ? ;
+          MIXS:0000258 @metatype:String ? ;
+          MIXS:0000259 @metatype:String ? ;
+          MIXS:0000260 @metatype:String ? ;
+          MIXS:0000261 @metatype:String ? ;
+          MIXS:0000875 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ?
+       ) ;
+       rdf:type [ <Host-associated> ] ?
+    )
+}
+
+<Human-associated> CLOSED {
+    (  $<Human-associated_tes> (  MIXS:0000861 @metatype:String ? ;
+          MIXS:0000255 @metatype:String ? ;
+          MIXS:0000811 @metatype:String ? ;
+          MIXS:0000031 @metatype:String ? ;
+          MIXS:0000884 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000867 @metatype:String ? ;
+          MIXS:0000888 @metatype:String ? ;
+          MIXS:0000263 @metatype:String ? ;
+          MIXS:0000264 @metatype:String ? ;
+          MIXS:0000869 @metatype:String ? ;
+          MIXS:0000870 @metatype:String ? ;
+          MIXS:0000872 @metatype:String ? ;
+          MIXS:0000365 @metatype:String ? ;
+          MIXS:0000874 @metatype:String ? ;
+          MIXS:0000274 @metatype:String ? ;
+          MIXS:0000262 @metatype:String ? ;
+          MIXS:0000265 @metatype:String ? ;
+          MIXS:0000894 @metatype:String ? ;
+          MIXS:0000317 @metatype:String ? ;
+          MIXS:0000266 @metatype:String ? ;
+          MIXS:0000295 @metatype:String ? ;
+          MIXS:0000895 @metatype:String ? ;
+          MIXS:0000896 @metatype:String ? ;
+          MIXS:0000267 @metatype:String ? ;
+          MIXS:0000268 @metatype:String ? ;
+          MIXS:0000326 @metatype:String ? ;
+          MIXS:0000897 @metatype:String ? ;
+          MIXS:0000898 @metatype:String ? ;
+          MIXS:0000269 @metatype:String ? ;
+          MIXS:0000270 @metatype:String ? ;
+          MIXS:0000271 @metatype:String ? ;
+          MIXS:0000333 @metatype:String ? ;
+          MIXS:0000272 @metatype:String ? ;
+          MIXS:0000273 @metatype:String ? ;
+          MIXS:0000275 @metatype:String ? ;
+          MIXS:0000276 @metatype:String ? ;
+          MIXS:0000278 @metatype:String ? ;
+          MIXS:0000899 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ?
+       ) ;
+       rdf:type [ <Human-associated> ] ?
+    )
+}
+
+<Human-gut> CLOSED {
+    (  $<Human-gut_tes> (  MIXS:0000280 @metatype:String ? ;
+          MIXS:0000282 @metatype:String ? ;
+          MIXS:0000905 @metatype:String ? ;
+          MIXS:0000861 @metatype:String ? ;
+          MIXS:0000255 @metatype:String ? ;
+          MIXS:0000811 @metatype:String ? ;
+          MIXS:0000031 @metatype:String ? ;
+          MIXS:0000884 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000867 @metatype:String ? ;
+          MIXS:0000888 @metatype:String ? ;
+          MIXS:0000263 @metatype:String ? ;
+          MIXS:0000264 @metatype:String ? ;
+          MIXS:0000869 @metatype:String ? ;
+          MIXS:0000870 @metatype:String ? ;
+          MIXS:0000872 @metatype:String ? ;
+          MIXS:0000365 @metatype:String ? ;
+          MIXS:0000874 @metatype:String ? ;
+          MIXS:0000274 @metatype:String ? ;
+          MIXS:0000317 @metatype:String ? ;
+          MIXS:0000895 @metatype:String ? ;
+          MIXS:0000896 @metatype:String ? ;
+          MIXS:0000897 @metatype:String ? ;
+          MIXS:0000333 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ?
+       ) ;
+       rdf:type [ <Human-gut> ] ?
+    )
+}
+
+<Human-oral> CLOSED {
+    (  $<Human-oral_tes> (  MIXS:0000283 @metatype:String ? ;
+          MIXS:0000924 @metatype:String ? ;
+          MIXS:0000861 @metatype:String ? ;
+          MIXS:0000255 @metatype:String ? ;
+          MIXS:0000811 @metatype:String ? ;
+          MIXS:0000031 @metatype:String ? ;
+          MIXS:0000884 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000867 @metatype:String ? ;
+          MIXS:0000888 @metatype:String ? ;
+          MIXS:0000263 @metatype:String ? ;
+          MIXS:0000264 @metatype:String ? ;
+          MIXS:0000869 @metatype:String ? ;
+          MIXS:0000870 @metatype:String ? ;
+          MIXS:0000872 @metatype:String ? ;
+          MIXS:0000365 @metatype:String ? ;
+          MIXS:0000874 @metatype:String ? ;
+          MIXS:0000274 @metatype:String ? ;
+          MIXS:0000317 @metatype:String ? ;
+          MIXS:0000895 @metatype:String ? ;
+          MIXS:0000896 @metatype:String ? ;
+          MIXS:0000897 @metatype:String ? ;
+          MIXS:0000333 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ?
+       ) ;
+       rdf:type [ <Human-oral> ] ?
+    )
+}
+
+<Human-skin> CLOSED {
+    (  $<Human-skin_tes> (  MIXS:0000284 @metatype:String ? ;
+          MIXS:0000943 @metatype:String ? ;
+          MIXS:0000944 @metatype:String ? ;
+          MIXS:0000861 @metatype:String ? ;
+          MIXS:0000255 @metatype:String ? ;
+          MIXS:0000811 @metatype:String ? ;
+          MIXS:0000031 @metatype:String ? ;
+          MIXS:0000884 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000867 @metatype:String ? ;
+          MIXS:0000888 @metatype:String ? ;
+          MIXS:0000263 @metatype:String ? ;
+          MIXS:0000264 @metatype:String ? ;
+          MIXS:0000869 @metatype:String ? ;
+          MIXS:0000870 @metatype:String ? ;
+          MIXS:0000872 @metatype:String ? ;
+          MIXS:0000365 @metatype:String ? ;
+          MIXS:0000874 @metatype:String ? ;
+          MIXS:0000274 @metatype:String ? ;
+          MIXS:0000317 @metatype:String ? ;
+          MIXS:0000895 @metatype:String ? ;
+          MIXS:0000896 @metatype:String ? ;
+          MIXS:0000897 @metatype:String ? ;
+          MIXS:0000333 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ?
+       ) ;
+       rdf:type [ <Human-skin> ] ?
+    )
+}
+
+<Human-vaginal> CLOSED {
+    (  $<Human-vaginal_tes> (  MIXS:0000965 @metatype:String ? ;
+          MIXS:0000285 @metatype:String ? ;
+          MIXS:0000966 @metatype:String ? ;
+          MIXS:0000967 @metatype:String ? ;
+          MIXS:0000286 @metatype:String ? ;
+          MIXS:0000968 @metatype:String ? ;
+          MIXS:0000969 @metatype:String ? ;
+          MIXS:0000287 @metatype:String ? ;
+          MIXS:0000288 @metatype:String ? ;
+          MIXS:0000289 @metatype:String ? ;
+          MIXS:0000861 @metatype:String ? ;
+          MIXS:0000255 @metatype:String ? ;
+          MIXS:0000811 @metatype:String ? ;
+          MIXS:0000031 @metatype:String ? ;
+          MIXS:0000884 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000867 @metatype:String ? ;
+          MIXS:0000888 @metatype:String ? ;
+          MIXS:0000263 @metatype:String ? ;
+          MIXS:0000264 @metatype:String ? ;
+          MIXS:0000869 @metatype:String ? ;
+          MIXS:0000870 @metatype:String ? ;
+          MIXS:0000872 @metatype:String ? ;
+          MIXS:0000365 @metatype:String ? ;
+          MIXS:0000874 @metatype:String ? ;
+          MIXS:0000274 @metatype:String ? ;
+          MIXS:0000317 @metatype:String ? ;
+          MIXS:0000895 @metatype:String ? ;
+          MIXS:0000896 @metatype:String ? ;
+          MIXS:0000897 @metatype:String ? ;
+          MIXS:0000333 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ?
+       ) ;
+       rdf:type [ <Human-vaginal> ] ?
+    )
+}
+
+<HydrocarbonResources-cores> CLOSED {
+    (  $<HydrocarbonResources-cores_tes> (  MIXS:0000988 @metatype:String ? ;
+          MIXS:0000989 @metatype:String ? ;
+          MIXS:0000290 @metatype:String ? ;
+          MIXS:0000291 @metatype:String ? ;
+          MIXS:0000303 @metatype:String ? ;
+          MIXS:0000393 @metatype:String ? ;
+          MIXS:0000394 @metatype:String ? ;
+          MIXS:0000395 @metatype:String ? ;
+          MIXS:0000397 @metatype:String ? ;
+          MIXS:0000404 @metatype:String ? ;
+          MIXS:0000211 @metatype:String ? ;
+          MIXS:0000990 @metatype:String ? ;
+          MIXS:0000992 @metatype:String ? ;
+          MIXS:0000993 @metatype:String ? ;
+          MIXS:0000405 @metatype:String ? ;
+          MIXS:0000406 @metatype:String ? ;
+          MIXS:0000407 @metatype:String ? ;
+          MIXS:0000408 @metatype:String ? ;
+          MIXS:0000994 @metatype:String ? ;
+          MIXS:0000995 @metatype:String ? ;
+          MIXS:0000996 @metatype:String ? ;
+          MIXS:0000997 @metatype:String ? ;
+          MIXS:0000296 @metatype:String ? ;
+          MIXS:0000297 @metatype:String ? ;
+          MIXS:0000998 @metatype:String ? ;
+          MIXS:0000999 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000412 @metatype:String ? ;
+          MIXS:0000409 @metatype:String ? ;
+          MIXS:0000413 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000410 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000099 @metatype:String ? ;
+          MIXS:0001001 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000421 @metatype:String ? ;
+          MIXS:0000298 @metatype:String ? ;
+          MIXS:0000423 @metatype:String ? ;
+          MIXS:0000424 @metatype:String ? ;
+          MIXS:0000419 @metatype:String ? ;
+          MIXS:0000425 @metatype:String ? ;
+          MIXS:0000426 @metatype:String ? ;
+          MIXS:0000427 @metatype:String ? ;
+          MIXS:0000102 @metatype:String ? ;
+          MIXS:0000139 @metatype:String ? ;
+          MIXS:0000428 @metatype:String ? ;
+          MIXS:0000429 @metatype:String ? ;
+          MIXS:0000430 @metatype:String ? ;
+          MIXS:0000431 @metatype:String ? ;
+          MIXS:0000432 @metatype:String ? ;
+          MIXS:0000105 @metatype:String ? ;
+          MIXS:0000433 @metatype:String ? ;
+          MIXS:0000434 @metatype:String ? ;
+          MIXS:0000106 @metatype:String ? ;
+          MIXS:0000117 @metatype:String ? ;
+          MIXS:0000150 @metatype:String ? ;
+          MIXS:0000435 @metatype:String ? ;
+          MIXS:0000436 @metatype:String ? ;
+          MIXS:0000438 @metatype:String ? ;
+          MIXS:0000152 @metatype:String ? ;
+          MIXS:0000153 @metatype:String ? ;
+          MIXS:0000154 @metatype:String ? ;
+          MIXS:0000155 @metatype:String ? ;
+          MIXS:0000156 @metatype:String ? ;
+          MIXS:0000157 @metatype:String ? ;
+          MIXS:0000120 @metatype:String ? ;
+          MIXS:0000126 @metatype:String ? ;
+          MIXS:0000127 @metatype:String ? ;
+          MIXS:0000131 @metatype:String ? ;
+          MIXS:0000133 @metatype:String ? ;
+          MIXS:0000134 @metatype:String ? ;
+          MIXS:0000135 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000300 @metatype:String ?
+       ) ;
+       rdf:type [ <HydrocarbonResources-cores> ] ?
+    )
+}
+
+<HydrocarbonResources-fluidsSwabs> CLOSED {
+    (  $<HydrocarbonResources-fluidsSwabs_tes> (  MIXS:0000988 @metatype:String ? ;
+          MIXS:0000989 @metatype:String ? ;
+          MIXS:0000290 @metatype:String ? ;
+          MIXS:0000291 @metatype:String ? ;
+          MIXS:0000303 @metatype:String ? ;
+          MIXS:0000393 @metatype:String ? ;
+          MIXS:0000394 @metatype:String ? ;
+          MIXS:0000395 @metatype:String ? ;
+          MIXS:0000397 @metatype:String ? ;
+          MIXS:0000990 @metatype:String ? ;
+          MIXS:0000992 @metatype:String ? ;
+          MIXS:0000993 @metatype:String ? ;
+          MIXS:0000406 @metatype:String ? ;
+          MIXS:0000407 @metatype:String ? ;
+          MIXS:0000408 @metatype:String ? ;
+          MIXS:0001008 @metatype:String ? ;
+          MIXS:0000452 @metatype:String ? ;
+          MIXS:0000453 @metatype:String ? ;
+          MIXS:0000454 @metatype:String ? ;
+          MIXS:0000455 @metatype:String ? ;
+          MIXS:0001009 @metatype:String ? ;
+          MIXS:0001010 @metatype:String ? ;
+          MIXS:0001011 @metatype:String ? ;
+          MIXS:0000456 @metatype:String ? ;
+          MIXS:0001012 @metatype:String ? ;
+          MIXS:0000457 @metatype:String ? ;
+          MIXS:0000136 @metatype:String ? ;
+          MIXS:0000296 @metatype:String ? ;
+          MIXS:0000297 @metatype:String ? ;
+          MIXS:0000998 @metatype:String ? ;
+          MIXS:0000999 @metatype:String ? ;
+          MIXS:0001015 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000412 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0000463 @metatype:String ? ;
+          MIXS:0000410 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000099 @metatype:String ? ;
+          MIXS:0001001 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000421 @metatype:String ? ;
+          MIXS:0000298 @metatype:String ? ;
+          MIXS:0000423 @metatype:String ? ;
+          MIXS:0000424 @metatype:String ? ;
+          MIXS:0000419 @metatype:String ? ;
+          MIXS:0000425 @metatype:String ? ;
+          MIXS:0000426 @metatype:String ? ;
+          MIXS:0000427 @metatype:String ? ;
+          MIXS:0000102 @metatype:String ? ;
+          MIXS:0000139 @metatype:String ? ;
+          MIXS:0000428 @metatype:String ? ;
+          MIXS:0000429 @metatype:String ? ;
+          MIXS:0000430 @metatype:String ? ;
+          MIXS:0000431 @metatype:String ? ;
+          MIXS:0000432 @metatype:String ? ;
+          MIXS:0000105 @metatype:String ? ;
+          MIXS:0000433 @metatype:String ? ;
+          MIXS:0000434 @metatype:String ? ;
+          MIXS:0000106 @metatype:String ? ;
+          MIXS:0000117 @metatype:String ? ;
+          MIXS:0000150 @metatype:String ? ;
+          MIXS:0000435 @metatype:String ? ;
+          MIXS:0000436 @metatype:String ? ;
+          MIXS:0000438 @metatype:String ? ;
+          MIXS:0000152 @metatype:String ? ;
+          MIXS:0000153 @metatype:String ? ;
+          MIXS:0000154 @metatype:String ? ;
+          MIXS:0000155 @metatype:String ? ;
+          MIXS:0000156 @metatype:String ? ;
+          MIXS:0000157 @metatype:String ? ;
+          MIXS:0000120 @metatype:String ? ;
+          MIXS:0000126 @metatype:String ? ;
+          MIXS:0000127 @metatype:String ? ;
+          MIXS:0000131 @metatype:String ? ;
+          MIXS:0000133 @metatype:String ? ;
+          MIXS:0000134 @metatype:String ? ;
+          MIXS:0000135 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000300 @metatype:String ?
+       ) ;
+       rdf:type [ <HydrocarbonResources-fluidsSwabs> ] ?
+    )
+}
+
+<MicrobialMatBiofilm> CLOSED {
+    (  $<MicrobialMatBiofilm_tes> (  MIXS:0000421 @metatype:String ? ;
+          MIXS:0000490 @metatype:String ? ;
+          MIXS:0000172 @metatype:String ? ;
+          MIXS:0000427 @metatype:String ? ;
+          MIXS:0000173 @metatype:String ? ;
+          MIXS:0000174 @metatype:String ? ;
+          MIXS:0000175 @metatype:String ? ;
+          MIXS:0000176 @metatype:String ? ;
+          MIXS:0000432 @metatype:String ? ;
+          MIXS:0000310 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000429 @metatype:String ? ;
+          MIXS:0000177 @metatype:String ? ;
+          MIXS:0000178 @metatype:String ? ;
+          MIXS:0000436 @metatype:String ? ;
+          MIXS:0000179 @metatype:String ? ;
+          MIXS:0000434 @metatype:String ? ;
+          MIXS:0000433 @metatype:String ? ;
+          MIXS:0000162 @metatype:String ? ;
+          MIXS:0000119 @metatype:String ? ;
+          MIXS:0000137 @metatype:String ? ;
+          MIXS:0000431 @metatype:String ? ;
+          MIXS:0000498 @metatype:String ? ;
+          MIXS:0000502 @metatype:String ? ;
+          MIXS:0000101 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000503 @metatype:String ? ;
+          MIXS:0000425 @metatype:String ? ;
+          MIXS:0000426 @metatype:String ? ;
+          MIXS:0000504 @metatype:String ? ;
+          MIXS:0000508 @metatype:String ? ;
+          MIXS:0000204 @metatype:String ? ;
+          MIXS:0000205 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0001001 @metatype:String ? ;
+          MIXS:0000515 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000516 @metatype:String ? ;
+          MIXS:0000180 @metatype:String ? ;
+          MIXS:0000505 @metatype:String ? ;
+          MIXS:0000181 @metatype:String ? ;
+          MIXS:0000430 @metatype:String ? ;
+          MIXS:0000412 @metatype:String ? ;
+          MIXS:0000182 @metatype:String ? ;
+          MIXS:0000183 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000184 @metatype:String ? ;
+          MIXS:0000428 @metatype:String ? ;
+          MIXS:0000423 @metatype:String ? ;
+          MIXS:0000424 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000525 @metatype:String ? ;
+          MIXS:0000530 @metatype:String ? ;
+          MIXS:0000533 @metatype:String ? ;
+          MIXS:0000191 @metatype:String ? ;
+          MIXS:0000185 @metatype:String ?
+       ) ;
+       rdf:type [ <MicrobialMatBiofilm> ] ?
+    )
+}
+
+<MiscellaneousNaturalOrArtificialEnvironment> CLOSED {
+    (  $<MiscellaneousNaturalOrArtificialEnvironment_tes> (  MIXS:0000421 @metatype:String ? ;
+          MIXS:0000427 @metatype:String ? ;
+          MIXS:0000174 @metatype:String ? ;
+          MIXS:0000176 @metatype:String ? ;
+          MIXS:0000432 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000429 @metatype:String ? ;
+          MIXS:0000177 @metatype:String ? ;
+          MIXS:0000435 @metatype:String ? ;
+          MIXS:0000178 @metatype:String ? ;
+          MIXS:0000436 @metatype:String ? ;
+          MIXS:0000179 @metatype:String ? ;
+          MIXS:0000434 @metatype:String ? ;
+          MIXS:0000162 @metatype:String ? ;
+          MIXS:0000119 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000425 @metatype:String ? ;
+          MIXS:0000426 @metatype:String ? ;
+          MIXS:0000504 @metatype:String ? ;
+          MIXS:0000508 @metatype:String ? ;
+          MIXS:0000204 @metatype:String ? ;
+          MIXS:0000205 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0001001 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000505 @metatype:String ? ;
+          MIXS:0000181 @metatype:String ? ;
+          MIXS:0000430 @metatype:String ? ;
+          MIXS:0000412 @metatype:String ? ;
+          MIXS:0000183 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000184 @metatype:String ? ;
+          MIXS:0000428 @metatype:String ? ;
+          MIXS:0000423 @metatype:String ? ;
+          MIXS:0000424 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000203 @metatype:String ?
+       ) ;
+       rdf:type [ <MiscellaneousNaturalOrArtificialEnvironment> ] ?
+    )
+}
+
+<Plant-associated> CLOSED {
+    (  $<Plant-associated_tes> (  MIXS:0000551 @metatype:String ? ;
+          MIXS:0000247 @metatype:String ? ;
+          MIXS:0000553 @metatype:String ? ;
+          MIXS:0000858 @metatype:String ? ;
+          MIXS:0001038 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000555 @metatype:String ? ;
+          MIXS:0001040 @metatype:String ? ;
+          MIXS:0001041 @metatype:String ? ;
+          MIXS:0000556 @metatype:String ? ;
+          MIXS:0000557 @metatype:String ? ;
+          MIXS:0000558 @metatype:String ? ;
+          MIXS:0000859 @metatype:String ? ;
+          MIXS:0000559 @metatype:String ? ;
+          MIXS:0001043 @metatype:String ? ;
+          MIXS:0001044 @metatype:String ? ;
+          MIXS:0000560 @metatype:String ? ;
+          MIXS:0000561 @metatype:String ? ;
+          MIXS:0000255 @metatype:String ? ;
+          MIXS:0000248 @metatype:String ? ;
+          MIXS:0000031 @metatype:String ? ;
+          MIXS:0000257 @metatype:String ? ;
+          MIXS:0000365 @metatype:String ? ;
+          MIXS:0000264 @metatype:String ? ;
+          MIXS:0000253 @metatype:String ? ;
+          MIXS:0000254 @metatype:String ? ;
+          MIXS:0000256 @metatype:String ? ;
+          MIXS:0000251 @metatype:String ? ;
+          MIXS:0000874 @metatype:String ? ;
+          MIXS:0000250 @metatype:String ? ;
+          MIXS:0000263 @metatype:String ? ;
+          MIXS:0000567 @metatype:String ? ;
+          MIXS:0000568 @metatype:String ? ;
+          MIXS:0000569 @metatype:String ? ;
+          MIXS:0001052 @metatype:String ? ;
+          MIXS:0000570 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000571 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0001056 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000573 @metatype:String ? ;
+          MIXS:0001057 @metatype:String ? ;
+          MIXS:0001058 @metatype:String ? ;
+          MIXS:0001059 @metatype:String ? ;
+          MIXS:0001060 @metatype:String ? ;
+          MIXS:0000575 @metatype:String ? ;
+          MIXS:0000576 @metatype:String ? ;
+          MIXS:0001061 @metatype:String ? ;
+          MIXS:0000577 @metatype:String ? ;
+          MIXS:0000578 @metatype:String ? ;
+          MIXS:0000579 @metatype:String ? ;
+          MIXS:0000580 @metatype:String ? ;
+          MIXS:0001062 @metatype:String ? ;
+          MIXS:0000581 @metatype:String ? ;
+          MIXS:0001063 @metatype:String ? ;
+          MIXS:0000582 @metatype:String ? ;
+          MIXS:0000860 @metatype:String ? ;
+          MIXS:0000249 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0001068 @metatype:String ? ;
+          MIXS:0001069 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0001070 @metatype:String ? ;
+          MIXS:0000590 @metatype:String ? ;
+          MIXS:0000591 @metatype:String ?
+       ) ;
+       rdf:type [ <Plant-associated> ] ?
+    )
+}
+
+<Sediment> CLOSED {
+    (  $<Sediment_tes> (  MIXS:0000421 @metatype:String ? ;
+          MIXS:0000490 @metatype:String ? ;
+          MIXS:0000172 @metatype:String ? ;
+          MIXS:0000427 @metatype:String ? ;
+          MIXS:0000173 @metatype:String ? ;
+          MIXS:0000174 @metatype:String ? ;
+          MIXS:0000175 @metatype:String ? ;
+          MIXS:0000176 @metatype:String ? ;
+          MIXS:0000432 @metatype:String ? ;
+          MIXS:0000310 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000429 @metatype:String ? ;
+          MIXS:0000177 @metatype:String ? ;
+          MIXS:0000435 @metatype:String ? ;
+          MIXS:0000178 @metatype:String ? ;
+          MIXS:0000436 @metatype:String ? ;
+          MIXS:0000179 @metatype:String ? ;
+          MIXS:0000434 @metatype:String ? ;
+          MIXS:0000433 @metatype:String ? ;
+          MIXS:0000162 @metatype:String ? ;
+          MIXS:0000119 @metatype:String ? ;
+          MIXS:0000137 @metatype:String ? ;
+          MIXS:0000431 @metatype:String ? ;
+          MIXS:0000498 @metatype:String ? ;
+          MIXS:0000502 @metatype:String ? ;
+          MIXS:0000101 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000503 @metatype:String ? ;
+          MIXS:0000425 @metatype:String ? ;
+          MIXS:0000426 @metatype:String ? ;
+          MIXS:0000504 @metatype:String ? ;
+          MIXS:0000508 @metatype:String ? ;
+          MIXS:0000204 @metatype:String ? ;
+          MIXS:0000205 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0001001 @metatype:String ? ;
+          MIXS:0000206 @metatype:String ? ;
+          MIXS:0000515 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000516 @metatype:String ? ;
+          MIXS:0000180 @metatype:String ? ;
+          MIXS:0000505 @metatype:String ? ;
+          MIXS:0000181 @metatype:String ? ;
+          MIXS:0000211 @metatype:String ? ;
+          MIXS:0000430 @metatype:String ? ;
+          MIXS:0000412 @metatype:String ? ;
+          MIXS:0000182 @metatype:String ? ;
+          MIXS:0000183 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0001078 @metatype:String ? ;
+          MIXS:0000184 @metatype:String ? ;
+          MIXS:0000428 @metatype:String ? ;
+          MIXS:0000423 @metatype:String ? ;
+          MIXS:0000424 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000750 @metatype:String ? ;
+          MIXS:0000525 @metatype:String ? ;
+          MIXS:0000634 @metatype:String ? ;
+          MIXS:0000530 @metatype:String ? ;
+          MIXS:0000533 @metatype:String ? ;
+          MIXS:0000191 @metatype:String ? ;
+          MIXS:0000185 @metatype:String ?
+       ) ;
+       rdf:type [ <Sediment> ] ?
+    )
+}
+
+<Soil> CLOSED {
+    (  $<Soil_tes> (  MIXS:0001080 @metatype:String ? ;
+          MIXS:0000312 @metatype:String ? ;
+          MIXS:0000314 @metatype:String ? ;
+          MIXS:0000315 @metatype:String ? ;
+          MIXS:0000316 @metatype:String ? ;
+          MIXS:0000318 @metatype:String ? ;
+          MIXS:0000639 @metatype:String ? ;
+          MIXS:0001081 @metatype:String ? ;
+          MIXS:0001086 @metatype:String ? ;
+          MIXS:0000319 @metatype:String ? ;
+          MIXS:0000320 @metatype:String ? ;
+          MIXS:0001082 @metatype:String ? ;
+          MIXS:0000321 @metatype:String ? ;
+          MIXS:0000322 @metatype:String ? ;
+          MIXS:0000185 @metatype:String ? ;
+          MIXS:0000323 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000325 @metatype:String ? ;
+          MIXS:0000327 @metatype:String ? ;
+          MIXS:0000328 @metatype:String ? ;
+          MIXS:0000642 @metatype:String ? ;
+          MIXS:0000643 @metatype:String ? ;
+          MIXS:0000644 @metatype:String ? ;
+          MIXS:0000645 @metatype:String ? ;
+          MIXS:0000329 @metatype:String ? ;
+          MIXS:0001083 @metatype:String ? ;
+          MIXS:0000330 @metatype:String ? ;
+          MIXS:0000331 @metatype:String ? ;
+          MIXS:0000332 @metatype:String ? ;
+          MIXS:0000334 @metatype:String ? ;
+          MIXS:0000646 @metatype:String ? ;
+          MIXS:0000647 @metatype:String ? ;
+          MIXS:0001084 @metatype:String ? ;
+          MIXS:0001085 @metatype:String ? ;
+          MIXS:0000335 @metatype:String ? ;
+          MIXS:0000336 @metatype:String ? ;
+          MIXS:0001001 @metatype:String ? ;
+          MIXS:0001106 @metatype:String ? ;
+          MIXS:0000533 @metatype:String ? ;
+          MIXS:0000337 @metatype:String ? ;
+          MIXS:0000530 @metatype:String ? ;
+          MIXS:0000338 @metatype:String ? ;
+          MIXS:0000650 @metatype:String ? ;
+          MIXS:0000339 @metatype:String ? ;
+          MIXS:0000340 @metatype:String ? ;
+          MIXS:0000651 @metatype:String ? ;
+          MIXS:0000341 @metatype:String ? ;
+          MIXS:0000652 @metatype:String ? ;
+          MIXS:0000343 @metatype:String ? ;
+          MIXS:0000607 @metatype:String ? ;
+          MIXS:0000324 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ?
+       ) ;
+       rdf:type [ <Soil> ] ?
+    )
+}
+
+<WastewaterSludge> CLOSED {
+    (  $<WastewaterSludge_tes> (  MIXS:0000421 @metatype:String ? ;
+          MIXS:0000653 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000656 @metatype:String ? ;
+          MIXS:0000657 @metatype:String ? ;
+          MIXS:0000660 @metatype:String ? ;
+          MIXS:0000661 @metatype:String ? ;
+          MIXS:0000662 @metatype:String ? ;
+          MIXS:0000664 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000425 @metatype:String ? ;
+          MIXS:0000665 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0001001 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000505 @metatype:String ? ;
+          MIXS:0000348 @metatype:String ? ;
+          MIXS:0000349 @metatype:String ? ;
+          MIXS:0000350 @metatype:String ? ;
+          MIXS:0000109 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000351 @metatype:String ? ;
+          MIXS:0000215 @metatype:String ? ;
+          MIXS:0000669 @metatype:String ? ;
+          MIXS:0000428 @metatype:String ? ;
+          MIXS:0000672 @metatype:String ? ;
+          MIXS:0000673 @metatype:String ? ;
+          MIXS:0000150 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000352 @metatype:String ? ;
+          MIXS:0000102 @metatype:String ? ;
+          MIXS:0000689 @metatype:String ? ;
+          MIXS:0000353 @metatype:String ?
+       ) ;
+       rdf:type [ <WastewaterSludge> ] ?
+    )
+}
+
+<Water> CLOSED {
+    (  $<Water_tes> (  MIXS:0000421 @metatype:String ? ;
+          MIXS:0000298 @metatype:String ? ;
+          MIXS:0000490 @metatype:String ? ;
+          MIXS:0000172 @metatype:String ? ;
+          MIXS:0000427 @metatype:String ? ;
+          MIXS:0001097 @metatype:String ? ;
+          MIXS:0000173 @metatype:String ? ;
+          MIXS:0000683 @metatype:String ? ;
+          MIXS:0000684 @metatype:String ? ;
+          MIXS:0000174 @metatype:String ? ;
+          MIXS:0000175 @metatype:String ? ;
+          MIXS:0000176 @metatype:String ? ;
+          MIXS:0000432 @metatype:String ? ;
+          MIXS:0000310 @metatype:String ? ;
+          MIXS:0000751 @metatype:String ? ;
+          MIXS:0000429 @metatype:String ? ;
+          MIXS:0000177 @metatype:String ? ;
+          MIXS:0000692 @metatype:String ? ;
+          MIXS:0000435 @metatype:String ? ;
+          MIXS:0000178 @metatype:String ? ;
+          MIXS:0000436 @metatype:String ? ;
+          MIXS:0000179 @metatype:String ? ;
+          MIXS:0000434 @metatype:String ? ;
+          MIXS:0000698 @metatype:String ? ;
+          MIXS:0000106 @metatype:String ? ;
+          MIXS:0000433 @metatype:String ? ;
+          MIXS:0000162 @metatype:String ? ;
+          MIXS:0000119 @metatype:String ? ;
+          MIXS:0000703 @metatype:String ? ;
+          MIXS:0000704 @metatype:String ? ;
+          MIXS:0000137 @metatype:String ? ;
+          MIXS:0000706 @metatype:String ? ;
+          MIXS:0000431 @metatype:String ? ;
+          MIXS:0000498 @metatype:String ? ;
+          MIXS:0000502 @metatype:String ? ;
+          MIXS:0000752 @metatype:String ? ;
+          MIXS:0000503 @metatype:String ? ;
+          MIXS:0000425 @metatype:String ? ;
+          MIXS:0000426 @metatype:String ? ;
+          MIXS:0000504 @metatype:String ? ;
+          MIXS:0000508 @metatype:String ? ;
+          MIXS:0000204 @metatype:String ? ;
+          MIXS:0000205 @metatype:String ? ;
+          MIXS:0000103 @metatype:String ? ;
+          MIXS:0000753 @metatype:String ? ;
+          MIXS:0001001 @metatype:String ? ;
+          MIXS:0000515 @metatype:String ? ;
+          MIXS:0000719 @metatype:String ? ;
+          MIXS:0000754 @metatype:String ? ;
+          MIXS:0000516 @metatype:String ? ;
+          MIXS:0000180 @metatype:String ? ;
+          MIXS:0000505 @metatype:String ? ;
+          MIXS:0000181 @metatype:String ? ;
+          MIXS:0000725 @metatype:String ? ;
+          MIXS:0000430 @metatype:String ? ;
+          MIXS:0000412 @metatype:String ? ;
+          MIXS:0000728 @metatype:String ? ;
+          MIXS:0000182 @metatype:String ? ;
+          MIXS:0000183 @metatype:String ? ;
+          MIXS:0000116 @metatype:String ? ;
+          MIXS:0000755 @metatype:String ? ;
+          MIXS:0000110 @metatype:String ? ;
+          MIXS:0000111 @metatype:String ? ;
+          MIXS:0000184 @metatype:String ? ;
+          MIXS:0000735 @metatype:String ? ;
+          MIXS:0000736 @metatype:String ? ;
+          MIXS:0000428 @metatype:String ? ;
+          MIXS:0000738 @metatype:String ? ;
+          MIXS:0000423 @metatype:String ? ;
+          MIXS:0000424 @metatype:String ? ;
+          MIXS:0000741 @metatype:String ? ;
+          MIXS:0000113 @metatype:String ? ;
+          MIXS:0000750 @metatype:String ? ;
+          MIXS:0000634 @metatype:String ? ;
+          MIXS:0000744 @metatype:String ? ;
+          MIXS:0000745 @metatype:String ? ;
+          MIXS:0000102 @metatype:String ? ;
+          MIXS:0000747 @metatype:String ? ;
+          MIXS:0000117 @metatype:String ? ;
+          MIXS:0000191 @metatype:String ? ;
+          MIXS:0000203 @metatype:String ?
+       ) ;
+       rdf:type [ <Water> ] ?
+    )
+}
+
+
+
