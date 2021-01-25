@@ -1,0 +1,71 @@
+SCHEMA_NAME = {{schema.name}}
+TGTS = graphql jsonschema docs shex owl rdf csv graphql python
+#EXTS = _datamodel.py .graphql .schema.json .owl.ttl .ttl -docs .shex
+SRC_DIR = src
+SCHEMA_DIR = $(SRC_DIR)/schema
+SCHEMA_SRC = $(SCHEMA_DIR)/$(SCHEMA_NAME).linkml.yaml
+
+all: $(patsubst %,gen-%,$(TGTS))
+clean:
+	rm -rf target/
+	rm -rf docs/
+echo:
+	echo $(patsubst %,gen-%,$(TGTS))
+
+test: all
+
+install:
+	. environment.sh
+	pip install -r requirements.txt
+
+tdir-%:
+	mkdir -p target/$*
+docs:
+	mkdir $@
+
+# Generate documentation ready for mkdocs
+gen-docs: $(SCHEMA_SRC) tdir-docs
+	pipenv run gen-markdown --dir target/docs $<
+.PHONY: gen-docs
+deploy-docs:
+	cp -pr target/docs/* docs/
+
+gen-owl: target/owl/$(SCHEMA_NAME).owl.ttl
+.PHONY: gen-owl
+target/owl/%.owl.ttl: $(SCHEMA_SRC) tdir-owl
+	gen-owl $< > $@
+
+gen-python: target/python/$(SCHEMA_NAME).py
+.PHONY: gen-owl
+target/python/%.py: $(SCHEMA_SRC)  tdir-python
+	gen-py-classes $< > $@
+
+gen-graphql:target/graphql/%.graphql 
+target/graphql/%.graphql: $(SCHEMA_SRC) tdir-graphql
+	gen-graphql $< > $@
+
+gen-jsonschema: target/jsonschema/%.schema.json
+target/jsonschema/%.schema.json: $(SCHEMA_SRC) tdir-jsonschema
+	gen-json-schema -t transaction $< > $@
+
+gen-shex: target/shex/%.shex
+target/shex/%.shex: $(SCHEMA_SRC) tdir-shex
+	gen-shex $< > $@
+
+gen-csv:  target/csv/%.csv
+target/csv/%.csv: $(SCHEMA_SRC) tdir-csv
+	gen-csv $< > $@
+
+gen-rdf: target/rdf/%.ttl
+target/rdf/%.ttl: $(SCHEMA_SRC) tdir-rdf
+	gen-rdf $< > $@
+
+gen-linkml: target/linkml/%.yaml
+target/linkml/%.yaml: $(SCHEMA_SRC) tdir-limkml
+	cp $< > $@
+
+#target/schema/%-docs: $(SCHEMA_SRC)
+#	pipenv run gen-markdown --dir $@ $<
+
+docserve:
+	mkdocs serve
