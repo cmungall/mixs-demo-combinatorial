@@ -1,4 +1,4 @@
-SCHEMA_NAME = {{schema.name}}
+SCHEMA_NAME = mixs
 TGTS = graphql jsonschema docs shex owl rdf csv graphql python
 #EXTS = _datamodel.py .graphql .schema.json .owl.ttl .ttl -docs .shex
 SRC_DIR = src

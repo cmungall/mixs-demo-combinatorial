@@ -1,4 +1,6 @@
-site_name: "MIxS6 (DRAFT/DEMO)"
+site_name: "MIxS6 (Draft/demo)"
 theme: readthedocs
+plugins:
+  - search
 nav:
   - Home: index.md
