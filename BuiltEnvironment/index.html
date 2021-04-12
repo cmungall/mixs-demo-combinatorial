@@ -1,246 +1,107 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Class: BuiltEnvironment - MIxS6 (Draft/demo)</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
-    
-    
-      
-        <title>Class: BuiltEnvironment - MIxS6 (Draft/demo)</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.77f3fd56.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.7fa14f5b.min.css">
-        
-      
-    
-    
-    
-      
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
-      
-    
-    
-    
-    
-      
-    
-    
-  </head>
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
   
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Class: BuiltEnvironment";
+    var mkdocs_page_input_path = "BuiltEnvironment.md";
+    var mkdocs_page_url = null;
+  </script>
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
-      
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#class-builtenvironment" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-      
+</head>
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="MIxS6 (Draft/demo)" class="md-header__button md-logo" aria-label="MIxS6 (Draft/demo)">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+<body class="wy-body-for-nav" role="document">
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            MIxS6 (Draft/demo)
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Class: BuiltEnvironment
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="md-header__options">
-      
-    </div>
+  <div class="wy-grid-for-nav">
+
     
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> MIxS6 (Draft/demo)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
 </div>
-    
-    
-  </nav>
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+      </div>
 
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="MIxS6 (Draft/demo)" class="md-nav__button md-logo" aria-label="MIxS6 (Draft/demo)">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
-
-    </a>
-    MIxS6 (Draft/demo)
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        Home
-      </a>
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#attributes" class="md-nav__link">
-    Attributes
-  </a>
-  
-    <nav class="md-nav" aria-label="Attributes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#own" class="md-nav__link">
-    Own
-  </a>
-  
-</li>
-        
-      </ul>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
     </nav>
-  
-</li>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
       
-    </ul>
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">MIxS6 (Draft/demo)</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Class: BuiltEnvironment</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
   
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
               
-                
-                
                 <h1 id="class-builtenvironment">Class: BuiltEnvironment</h1>
 <p>built environment</p>
 <p>URI: <a href="https://w3id.org/mixs/vocab/BuiltEnvironment">mixs.vocab:BuiltEnvironment</a></p>
-<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[BuiltEnvironment&#124;surf_material:string%20%3F;surf_air_cont:string%20%3F;rel_air_humidity:string%20%3F;abs_air_humidity:string%20%3F;surf_humidity:string%20%3F;air_temp:string%20%3F;surf_temp:string%20%3F;surf_moisture_ph:string%20%3F;build_occup_type:string%20%3F;surf_moisture:string%20%3F;dew_point:string%20%3F;carb_dioxide:string%20%3F;ventilation_type:string%20%3F;organism_count:string%20%3F;indoor_space:string%20%3F;indoor_surf:string%20%3F;filter_type:string%20%3F;heat_cool_type:string%20%3F;substructure_type:string%20%3F;building_setting:string%20%3F;light_type:string%20%3F;samp_sort_meth:string%20%3F;space_typ_state:string%20%3F;typ_occup_density:string%20%3F;occup_samp:string%20%3F;occup_density_samp:string%20%3F;address:string%20%3F;adj_room:string%20%3F;aero_struc:string%20%3F;amount_light:string%20%3F;arch_struc:string%20%3F;avg_occup:string%20%3F;avg_dew_point:string%20%3F;avg_temp:string%20%3F;bathroom_count:string%20%3F;bedroom_count:string%20%3F;built_struc_age:string%20%3F;built_struc_set:string%20%3F;built_struc_type:string%20%3F;ceil_area:string%20%3F;ceil_cond:string%20%3F;ceil_finish_mat:string%20%3F;ceil_water_mold:string%20%3F;ceil_struc:string%20%3F;ceil_texture:string%20%3F;ceil_thermal_mass:string%20%3F;ceil_type:string%20%3F;cool_syst_id:string%20%3F;date_last_rain:string%20%3F;build_docs:string%20%3F;door_size:string%20%3F;door_cond:string%20%3F;door_direct:string%20%3F;door_loc:string%20%3F;door_mat:string%20%3F;door_move:string%20%3F;door_water_mold:string%20%3F;door_type:string%20%3F;door_comp_type:string%20%3F;door_type_metal:string%20%3F;door_type_wood:string%20%3F;drawings:string%20%3F;elevator:string%20%3F;escalator:string%20%3F;exp_duct:string%20%3F;exp_pipe:string%20%3F;ext_door:string%20%3F;fireplace_type:string%20%3F;floor_age:string%20%3F;floor_area:string%20%3F;floor_cond:string%20%3F;floor_count:string%20%3F;floor_finish_mat:string%20%3F;floor_water_mold:string%20%3F;floor_struc:string%20%3F;floor_thermal_mass:string%20%3F;freq_clean:string%20%3F;freq_cook:string%20%3F;furniture:string%20%3F;gender_restroom:string%20%3F;hall_count:string%20%3F;handidness:string%20%3F;heat_deliv_loc:string%20%3F;heat_system_deliv_meth:string%20%3F;heat_system_id:string%20%3F;height_carper_fiber:string%20%3F;inside_lux:string%20%3F;int_wall_cond:string%20%3F;last_clean:string%20%3F;max_occup:string%20%3F;mech_struc:string%20%3F;number_plants:string%20%3F;number_pets:string%20%3F;number_resident:string%20%3F;occup_document:string%20%3F;ext_wall_orient:string%20%3F;ext_window_orient:string%20%3F;rel_humidity_out:string%20%3F;pres_animal:string%20%3F;quad_pos:string%20%3F;rel_samp_loc:string%20%3F;room_air_exch_rate:string%20%3F;room_architec_element:string%20%3F;room_condt:string%20%3F;room_count:string%20%3F;room_dim:string%20%3F;room_door_dist:string%20%3F;room_loc:string%20%3F;room_moist_damage_hist:string%20%3F;room_net_area:string%20%3F;room_occup:string%20%3F;room_samp_pos:string%20%3F;room_type:string%20%3F;room_vol:string%20%3F;room_window_count:string%20%3F;room_connected:string%20%3F;room_hallway:string%20%3F;room_door_share:string%20%3F;room_wall_share:string%20%3F;samp_weather:string%20%3F;samp_floor:string%20%3F;samp_room_id:string%20%3F;samp_time_out:string%20%3F;season:string%20%3F;season_use:string%20%3F;shading_device_cond:string%20%3F;shading_device_loc:string%20%3F;shading_device_mat:string%20%3F;shading_device_water_mold:string%20%3F;shading_device_type:string%20%3F;specific_humidity:string%20%3F;specific:string%20%3F;temp_out:string%20%3F;train_line:string%20%3F;train_stat_loc:string%20%3F;train_stop_loc:string%20%3F;vis_media:string%20%3F;wall_area:string%20%3F;wall_const_type:string%20%3F;wall_finish_mat:string%20%3F;wall_height:string%20%3F;wall_loc:string%20%3F;wall_water_mold:string%20%3F;wall_surf_treatment:string%20%3F;wall_texture:string%20%3F;wall_thermal_mass:string%20%3F;water_feat_size:string%20%3F;water_feat_type:string%20%3F;weekday:string%20%3F;window_size:string%20%3F;window_cond:string%20%3F;window_cover:string%20%3F;window_horiz_pos:string%20%3F;window_loc:string%20%3F;window_mat:string%20%3F;window_open_freq:string%20%3F;window_water_mold:string%20%3F;window_status:string%20%3F;window_type:string%20%3F;window_vert_pos:string%20%3F]" /></p>
+<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[BuiltEnvironmentMiuvig],[BuiltEnvironmentMisag],[BuiltEnvironmentMimarksS],[BuiltEnvironmentMimarksC],[BuiltEnvironmentMimag],[BuiltEnvironmentMigsVi],[BuiltEnvironmentMigsPl],[BuiltEnvironmentMigsOrg],[BuiltEnvironmentMigsEu],[BuiltEnvironmentMigsBa],[BuiltEnvironmentMe],[BuiltEnvironment&#124;surf_material:surf_material_enum%20%3F;surf_air_cont:surf_air_cont_enum%20%3F;rel_air_humidity:string%20%3F;abs_air_humidity:string%20%3F;surf_humidity:string%20%3F;air_temp:string%20%3F;surf_temp:string%20%3F;surf_moisture_ph:string%20%3F;build_occup_type:build_occup_type_enum%20%3F;surf_moisture:string%20%3F;dew_point:string%20%3F;carb_dioxide:string%20%3F;ventilation_type:string%20%3F;organism_count:organism_count_enum%20%3F;indoor_space:indoor_space_enum%20%3F;indoor_surf:indoor_surf_enum%20%3F;filter_type:filter_type_enum%20%3F;heat_cool_type:heat_cool_type_enum%20%3F;substructure_type:substructure_type_enum%20%3F;building_setting:building_setting_enum%20%3F;light_type:light_type_enum%20%3F;samp_sort_meth:string%20%3F;space_typ_state:string%20%3F;typ_occup_density:string%20%3F;occup_samp:string%20%3F;occup_density_samp:string%20%3F;address:string%20%3F;adj_room:string%20%3F;aero_struc:string%20%3F;amount_light:string%20%3F;arch_struc:arch_struc_enum%20%3F;avg_occup:string%20%3F;avg_dew_point:string%20%3F;avg_temp:string%20%3F;bathroom_count:string%20%3F;bedroom_count:string%20%3F;built_struc_age:string%20%3F;built_struc_set:string%20%3F;built_struc_type:string%20%3F;ceil_area:string%20%3F;ceil_cond:ceil_cond_enum%20%3F;ceil_finish_mat:ceil_finish_mat_enum%20%3F;ceil_water_mold:string%20%3F;ceil_struc:string%20%3F;ceil_texture:ceil_texture_enum%20%3F;ceil_thermal_mass:string%20%3F;ceil_type:ceil_type_enum%20%3F;cool_syst_id:string%20%3F;date_last_rain:string%20%3F;build_docs:build_docs_enum%20%3F;door_size:string%20%3F;door_cond:door_cond_enum%20%3F;door_direct:door_direct_enum%20%3F;door_loc:door_loc_enum%20%3F;door_mat:door_mat_enum%20%3F;door_move:door_move_enum%20%3F;door_water_mold:string%20%3F;door_type:door_type_enum%20%3F;door_comp_type:door_comp_type_enum%20%3F;door_type_metal:door_type_metal_enum%20%3F;door_type_wood:door_type_wood_enum%20%3F;drawings:drawings_enum%20%3F;elevator:string%20%3F;escalator:string%20%3F;exp_duct:string%20%3F;exp_pipe:string%20%3F;ext_door:string%20%3F;fireplace_type:string%20%3F;floor_age:string%20%3F;floor_area:string%20%3F;floor_cond:floor_cond_enum%20%3F;floor_count:string%20%3F;floor_finish_mat:floor_finish_mat_enum%20%3F;floor_water_mold:floor_water_mold_enum%20%3F;floor_struc:floor_struc_enum%20%3F;floor_thermal_mass:string%20%3F;freq_clean:string%20%3F;freq_cook:string%20%3F;furniture:furniture_enum%20%3F;gender_restroom:string%20%3F;hall_count:string%20%3F;handidness:handidness_enum%20%3F;heat_deliv_loc:heat_deliv_loc_enum%20%3F;heat_system_deliv_meth:string%20%3F;heat_system_id:string%20%3F;height_carper_fiber:string%20%3F;inside_lux:string%20%3F;int_wall_cond:int_wall_cond_enum%20%3F;last_clean:string%20%3F;max_occup:string%20%3F;mech_struc:mech_struc_enum%20%3F;number_plants:string%20%3F;number_pets:string%20%3F;number_resident:string%20%3F;occup_document:occup_document_enum%20%3F;ext_wall_orient:ext_wall_orient_enum%20%3F;ext_window_orient:ext_window_orient_enum%20%3F;rel_humidity_out:string%20%3F;pres_animal:pres_animal_enum%20%3F;quad_pos:quad_pos_enum%20%3F;rel_samp_loc:rel_samp_loc_enum%20%3F;room_air_exch_rate:string%20%3F;room_architec_element:string%20%3F;room_condt:room_condt_enum%20%3F;room_count:string%20%3F;room_dim:string%20%3F;room_door_dist:string%20%3F;room_loc:room_loc_enum%20%3F;room_moist_damage_hist:string%20%3F;room_net_area:string%20%3F;room_occup:string%20%3F;room_samp_pos:room_samp_pos_enum%20%3F;room_type:room_type_enum%20%3F;room_vol:string%20%3F;room_window_count:string%20%3F;room_connected:room_connected_enum%20%3F;room_hallway:string%20%3F;room_door_share:string%20%3F;room_wall_share:string%20%3F;samp_weather:samp_weather_enum%20%3F;samp_floor:samp_floor_enum%20%3F;samp_room_id:string%20%3F;samp_time_out:string%20%3F;season:string%20%3F;season_use:season_use_enum%20%3F;shading_device_cond:shading_device_cond_enum%20%3F;shading_device_loc:string%20%3F;shading_device_mat:string%20%3F;shading_device_water_mold:string%20%3F;shading_device_type:shading_device_type_enum%20%3F;specific_humidity:string%20%3F;specific:specific_enum%20%3F;temp_out:string%20%3F;train_line:train_line_enum%20%3F;train_stat_loc:train_stat_loc_enum%20%3F;train_stop_loc:train_stop_loc_enum%20%3F;vis_media:vis_media_enum%20%3F;wall_area:string%20%3F;wall_const_type:wall_const_type_enum%20%3F;wall_finish_mat:wall_finish_mat_enum%20%3F;wall_height:string%20%3F;wall_loc:wall_loc_enum%20%3F;wall_water_mold:string%20%3F;wall_surf_treatment:wall_surf_treatment_enum%20%3F;wall_texture:wall_texture_enum%20%3F;wall_thermal_mass:string%20%3F;water_feat_size:string%20%3F;water_feat_type:water_feat_type_enum%20%3F;weekday:weekday_enum%20%3F;window_size:string%20%3F;window_cond:window_cond_enum%20%3F;window_cover:window_cover_enum%20%3F;window_horiz_pos:window_horiz_pos_enum%20%3F;window_loc:window_loc_enum%20%3F;window_mat:window_mat_enum%20%3F;window_open_freq:string%20%3F;window_water_mold:string%20%3F;window_status:string%20%3F;window_type:window_type_enum%20%3F;window_vert_pos:window_vert_pos_enum%20%3F]^-[BuiltEnvironmentMiuvig],[BuiltEnvironment]^-[BuiltEnvironmentMisag],[BuiltEnvironment]^-[BuiltEnvironmentMimarksS],[BuiltEnvironment]^-[BuiltEnvironmentMimarksC],[BuiltEnvironment]^-[BuiltEnvironmentMimag],[BuiltEnvironment]^-[BuiltEnvironmentMigsVi],[BuiltEnvironment]^-[BuiltEnvironmentMigsPl],[BuiltEnvironment]^-[BuiltEnvironmentMigsOrg],[BuiltEnvironment]^-[BuiltEnvironmentMigsEu],[BuiltEnvironment]^-[BuiltEnvironmentMigsBa],[BuiltEnvironment]^-[BuiltEnvironmentMe]" /></p>
+<h2 id="children">Children</h2>
+<ul>
+<li><a href="../BuiltEnvironmentMe/">BuiltEnvironmentMe</a> - Combinatorial checklist for built environment with me</li>
+<li><a href="../BuiltEnvironmentMigsBa/">BuiltEnvironmentMigsBa</a> - Combinatorial checklist for built environment with migs_ba</li>
+<li><a href="../BuiltEnvironmentMigsEu/">BuiltEnvironmentMigsEu</a> - Combinatorial checklist for built environment with migs_eu</li>
+<li><a href="../BuiltEnvironmentMigsOrg/">BuiltEnvironmentMigsOrg</a> - Combinatorial checklist for built environment with migs_org</li>
+<li><a href="../BuiltEnvironmentMigsPl/">BuiltEnvironmentMigsPl</a> - Combinatorial checklist for built environment with migs_pl</li>
+<li><a href="../BuiltEnvironmentMigsVi/">BuiltEnvironmentMigsVi</a> - Combinatorial checklist for built environment with migs_vi</li>
+<li><a href="../BuiltEnvironmentMimag/">BuiltEnvironmentMimag</a> - Combinatorial checklist for built environment with mimag</li>
+<li><a href="../BuiltEnvironmentMimarksC/">BuiltEnvironmentMimarksC</a> - Combinatorial checklist for built environment with mimarks_c</li>
+<li><a href="../BuiltEnvironmentMimarksS/">BuiltEnvironmentMimarksS</a> - Combinatorial checklist for built environment with mimarks_s</li>
+<li><a href="../BuiltEnvironmentMisag/">BuiltEnvironmentMisag</a> - Combinatorial checklist for built environment with misag</li>
+<li><a href="../BuiltEnvironmentMiuvig/">BuiltEnvironmentMiuvig</a> - Combinatorial checklist for built environment with miuvig</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by class</h2>
 <h2 id="attributes">Attributes</h2>
 <h3 id="own">Own</h3>
 <ul>
@@ -282,7 +143,7 @@
 </li>
 <li><a href="../arch_struc/">arch_struc</a>  <sub>OPT</sub><ul>
 <li>Description: An architectural structure is a human-made, free-standing, immobile outdoor construction</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: shed None</li>
 </ul>
 </li>
@@ -318,19 +179,19 @@
 </li>
 <li><a href="../build_docs/">build_docs</a>  <sub>OPT</sub><ul>
 <li>Description: The building design, construction and operation documents</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: maintenance plans None</li>
 </ul>
 </li>
 <li><a href="../build_occup_type/">build_occup_type</a>  <sub>OPT</sub><ul>
 <li>Description: The primary function for which a building or discrete part of a building is intended to be used</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: market None</li>
 </ul>
 </li>
 <li><a href="../building_setting/">building_setting</a>  <sub>OPT</sub><ul>
 <li>Description: A location (geography) where a building is set</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: rural None</li>
 </ul>
 </li>
@@ -366,13 +227,13 @@
 </li>
 <li><a href="../ceil_cond/">ceil_cond</a>  <sub>OPT</sub><ul>
 <li>Description: The physical condition of the ceiling at the time of sampling; photos or video preferred; use drawings to indicate location of damaged areas</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: damaged None</li>
 </ul>
 </li>
 <li><a href="../ceil_finish_mat/">ceil_finish_mat</a>  <sub>OPT</sub><ul>
 <li>Description: The type of material used to finish a ceiling</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: stucco None</li>
 </ul>
 </li>
@@ -384,7 +245,7 @@
 </li>
 <li><a href="../ceil_texture/">ceil_texture</a>  <sub>OPT</sub><ul>
 <li>Description: The feel, appearance, or consistency of a ceiling surface</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: popcorn None</li>
 </ul>
 </li>
@@ -396,7 +257,7 @@
 </li>
 <li><a href="../ceil_type/">ceil_type</a>  <sub>OPT</sub><ul>
 <li>Description: The type of ceiling according to the ceiling's appearance or construction</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: coffered None</li>
 </ul>
 </li>
@@ -426,37 +287,37 @@
 </li>
 <li><a href="../door_comp_type/">door_comp_type</a>  <sub>OPT</sub><ul>
 <li>Description: The composite type of the door</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: revolving None</li>
 </ul>
 </li>
 <li><a href="../door_cond/">door_cond</a>  <sub>OPT</sub><ul>
 <li>Description: The phsical condition of the door</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: new None</li>
 </ul>
 </li>
 <li><a href="../door_direct/">door_direct</a>  <sub>OPT</sub><ul>
 <li>Description: The direction the door opens</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: inward None</li>
 </ul>
 </li>
 <li><a href="../door_loc/">door_loc</a>  <sub>OPT</sub><ul>
 <li>Description: The relative location of the door in the room</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: north None</li>
 </ul>
 </li>
 <li><a href="../door_mat/">door_mat</a>  <sub>OPT</sub><ul>
 <li>Description: The material the door is composed of</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: wood None</li>
 </ul>
 </li>
 <li><a href="../door_move/">door_move</a>  <sub>OPT</sub><ul>
 <li>Description: The type of movement of the door</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: swinging None</li>
 </ul>
 </li>
@@ -468,19 +329,19 @@
 </li>
 <li><a href="../door_type/">door_type</a>  <sub>OPT</sub><ul>
 <li>Description: The type of door material</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: wooden None</li>
 </ul>
 </li>
 <li><a href="../door_type_metal/">door_type_metal</a>  <sub>OPT</sub><ul>
 <li>Description: The type of metal door</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: hollow None</li>
 </ul>
 </li>
 <li><a href="../door_type_wood/">door_type_wood</a>  <sub>OPT</sub><ul>
 <li>Description: The type of wood door</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: battened None</li>
 </ul>
 </li>
@@ -492,7 +353,7 @@
 </li>
 <li><a href="../drawings/">drawings</a>  <sub>OPT</sub><ul>
 <li>Description: The buildings architectural drawings; if design is chosen, indicate phase-conceptual, schematic, design development, and construction documents</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: sketch None</li>
 </ul>
 </li>
@@ -528,19 +389,19 @@
 </li>
 <li><a href="../ext_wall_orient/">ext_wall_orient</a>  <sub>OPT</sub><ul>
 <li>Description: The orientation of the exterior wall</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: northwest None</li>
 </ul>
 </li>
 <li><a href="../ext_window_orient/">ext_window_orient</a>  <sub>OPT</sub><ul>
 <li>Description: The compass direction the exterior window of the room is facing</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: southwest None</li>
 </ul>
 </li>
 <li><a href="../filter_type/">filter_type</a>  <sub>OPT</sub><ul>
 <li>Description: A device which removes solid particulates or airborne molecular contaminants</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: HEPA None</li>
 </ul>
 </li>
@@ -564,7 +425,7 @@
 </li>
 <li><a href="../floor_cond/">floor_cond</a>  <sub>OPT</sub><ul>
 <li>Description: The physical condition of the floor at the time of sampling; photos or video preferred; use drawings to indicate location of damaged areas</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: new None</li>
 </ul>
 </li>
@@ -576,13 +437,13 @@
 </li>
 <li><a href="../floor_finish_mat/">floor_finish_mat</a>  <sub>OPT</sub><ul>
 <li>Description: The floor covering type; the finished surface that is walked on</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: carpet None</li>
 </ul>
 </li>
 <li><a href="../floor_struc/">floor_struc</a>  <sub>OPT</sub><ul>
 <li>Description: Refers to the structural elements and subfloor upon which the finish flooring is installed</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: concrete None</li>
 </ul>
 </li>
@@ -594,7 +455,7 @@
 </li>
 <li><a href="../floor_water_mold/">floor_water_mold</a>  <sub>OPT</sub><ul>
 <li>Description: Signs of the presence of mold or mildew in a room</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: ceiling discoloration None</li>
 </ul>
 </li>
@@ -612,7 +473,7 @@
 </li>
 <li><a href="../furniture/">furniture</a>  <sub>OPT</sub><ul>
 <li>Description: The types of furniture present in the sampled room</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: chair None</li>
 </ul>
 </li>
@@ -630,19 +491,19 @@
 </li>
 <li><a href="../handidness/">handidness</a>  <sub>OPT</sub><ul>
 <li>Description: The handidness of the individual sampled</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: right handedness None</li>
 </ul>
 </li>
 <li><a href="../heat_cool_type/">heat_cool_type</a>  <sub>OPT</sub><ul>
 <li>Description: Methods of conditioning or heating a room or building</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: heat pump None</li>
 </ul>
 </li>
 <li><a href="../heat_deliv_loc/">heat_deliv_loc</a>  <sub>OPT</sub><ul>
 <li>Description: The location of heat delivery within the room</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: north None</li>
 </ul>
 </li>
@@ -666,13 +527,13 @@
 </li>
 <li><a href="../indoor_space/">indoor_space</a>  <sub>OPT</sub><ul>
 <li>Description: A distinguishable space within a structure, the purpose for which discrete areas of a building is used</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: foyer None</li>
 </ul>
 </li>
 <li><a href="../indoor_surf/">indoor_surf</a>  <sub>OPT</sub><ul>
 <li>Description: Type of indoor surface</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: wall None</li>
 </ul>
 </li>
@@ -684,7 +545,7 @@
 </li>
 <li><a href="../int_wall_cond/">int_wall_cond</a>  <sub>OPT</sub><ul>
 <li>Description: The physical condition of the wall at the time of sampling; photos or video preferred; use drawings to indicate location of damaged areas</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: damaged None</li>
 </ul>
 </li>
@@ -696,7 +557,7 @@
 </li>
 <li><a href="../light_type/">light_type</a>  <sub>OPT</sub><ul>
 <li>Description: Application of light to achieve some practical or aesthetic effect. Lighting includes the use of both artificial light sources such as lamps and light fixtures, as well as natural illumination by capturing daylight. Can also include absence of light</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: desk lamp None</li>
 </ul>
 </li>
@@ -708,7 +569,7 @@
 </li>
 <li><a href="../mech_struc/">mech_struc</a>  <sub>OPT</sub><ul>
 <li>Description: mechanical structure: a moving structure</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: elevator None</li>
 </ul>
 </li>
@@ -738,7 +599,7 @@
 </li>
 <li><a href="../occup_document/">occup_document</a>  <sub>OPT</sub><ul>
 <li>Description: The type of documentation of occupancy</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: estimate None</li>
 </ul>
 </li>
@@ -750,19 +611,19 @@
 </li>
 <li><a href="../organism_count/">organism_count</a>  <sub>OPT</sub><ul>
 <li>Description: Total cell count of any organism (or group of organisms) per gram, volume or area of sample, should include name of organism followed by count. The method that was used for the enumeration (e.g. qPCR, atp, mpn, etc.) Should also be provided. (example: total prokaryotes; 3.5e7 cells per ml; qpcr)</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: total prokaryotes;3.5e7 cells per milliliter;qPCR None</li>
 </ul>
 </li>
 <li><a href="../pres_animal/">pres_animal</a>  <sub>OPT</sub><ul>
 <li>Description: The number and type of animals present in the sampling space</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: cat;5 None</li>
 </ul>
 </li>
 <li><a href="../quad_pos/">quad_pos</a>  <sub>OPT</sub><ul>
 <li>Description: The quadrant position of the sampling room within the building</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: West side None</li>
 </ul>
 </li>
@@ -780,7 +641,7 @@
 </li>
 <li><a href="../rel_samp_loc/">rel_samp_loc</a>  <sub>OPT</sub><ul>
 <li>Description: The sampling location within the train car</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: center of car None</li>
 </ul>
 </li>
@@ -798,13 +659,13 @@
 </li>
 <li><a href="../room_condt/">room_condt</a>  <sub>OPT</sub><ul>
 <li>Description: The condition of the room at the time of sampling</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: new None</li>
 </ul>
 </li>
 <li><a href="../room_connected/">room_connected</a>  <sub>OPT</sub><ul>
 <li>Description: List of rooms connected to the sampling room by a doorway</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: office None</li>
 </ul>
 </li>
@@ -840,7 +701,7 @@
 </li>
 <li><a href="../room_loc/">room_loc</a>  <sub>OPT</sub><ul>
 <li>Description: The position of the room within the building</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: interior room None</li>
 </ul>
 </li>
@@ -864,13 +725,13 @@
 </li>
 <li><a href="../room_samp_pos/">room_samp_pos</a>  <sub>OPT</sub><ul>
 <li>Description: The horizontal sampling position in the room relative to architectural elements</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: south corner None</li>
 </ul>
 </li>
 <li><a href="../room_type/">room_type</a>  <sub>OPT</sub><ul>
 <li>Description: The main purpose or activity of the sampling room. A room is any distinguishable space within a structure</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: bathroom None</li>
 </ul>
 </li>
@@ -894,7 +755,7 @@
 </li>
 <li><a href="../samp_floor/">samp_floor</a>  <sub>OPT</sub><ul>
 <li>Description: The floor of the building, where the sampling room is located</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: 4th floor None</li>
 </ul>
 </li>
@@ -918,7 +779,7 @@
 </li>
 <li><a href="../samp_weather/">samp_weather</a>  <sub>OPT</sub><ul>
 <li>Description: The weather on the sampling day</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: foggy None</li>
 </ul>
 </li>
@@ -930,13 +791,13 @@
 </li>
 <li><a href="../season_use/">season_use</a>  <sub>OPT</sub><ul>
 <li>Description: The seasons the space is occupied</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Winter None</li>
 </ul>
 </li>
 <li><a href="../shading_device_cond/">shading_device_cond</a>  <sub>OPT</sub><ul>
 <li>Description: The physical condition of the shading device at the time of sampling</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: new None</li>
 </ul>
 </li>
@@ -954,7 +815,7 @@
 </li>
 <li><a href="../shading_device_type/">shading_device_type</a>  <sub>OPT</sub><ul>
 <li>Description: The type of shading device</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: slatted aluminum awning None</li>
 </ul>
 </li>
@@ -972,7 +833,7 @@
 </li>
 <li><a href="../specific/">specific</a>  <sub>OPT</sub><ul>
 <li>Description: The building specifications. If design is chosen, indicate phase: conceptual, schematic, design development, construction documents</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: construction None</li>
 </ul>
 </li>
@@ -984,13 +845,13 @@
 </li>
 <li><a href="../substructure_type/">substructure_type</a>  <sub>OPT</sub><ul>
 <li>Description: The substructure or under building is that largely hidden section of the building which is built off the foundations to the ground floor level</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: basement None</li>
 </ul>
 </li>
 <li><a href="../surf_air_cont/">surf_air_cont</a>  <sub>OPT</sub><ul>
 <li>Description: Contaminant identified on surface</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: radon None</li>
 </ul>
 </li>
@@ -1002,7 +863,7 @@
 </li>
 <li><a href="../surf_material/">surf_material</a>  <sub>OPT</sub><ul>
 <li>Description: Surface materials at the point of sampling</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: wood None</li>
 </ul>
 </li>
@@ -1032,19 +893,19 @@
 </li>
 <li><a href="../train_line/">train_line</a>  <sub>OPT</sub><ul>
 <li>Description: The subway line name</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: red None</li>
 </ul>
 </li>
 <li><a href="../train_stat_loc/">train_stat_loc</a>  <sub>OPT</sub><ul>
 <li>Description: The train station collection location</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: forest hills None</li>
 </ul>
 </li>
 <li><a href="../train_stop_loc/">train_stop_loc</a>  <sub>OPT</sub><ul>
 <li>Description: The train stop collection location</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: end None</li>
 </ul>
 </li>
@@ -1062,7 +923,7 @@
 </li>
 <li><a href="../vis_media/">vis_media</a>  <sub>OPT</sub><ul>
 <li>Description: The building visual media</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: 3D scans None</li>
 </ul>
 </li>
@@ -1074,13 +935,13 @@
 </li>
 <li><a href="../wall_const_type/">wall_const_type</a>  <sub>OPT</sub><ul>
 <li>Description: The building class of the wall defined by the composition of the building elements and fire-resistance rating.</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: fire resistive None</li>
 </ul>
 </li>
 <li><a href="../wall_finish_mat/">wall_finish_mat</a>  <sub>OPT</sub><ul>
 <li>Description: The material utilized to finish the outer most layer of the wall</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: wood None</li>
 </ul>
 </li>
@@ -1092,19 +953,19 @@
 </li>
 <li><a href="../wall_loc/">wall_loc</a>  <sub>OPT</sub><ul>
 <li>Description: The relative location of the wall within the room</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: north None</li>
 </ul>
 </li>
 <li><a href="../wall_surf_treatment/">wall_surf_treatment</a>  <sub>OPT</sub><ul>
 <li>Description: The surface treatment of interior wall</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: paneling None</li>
 </ul>
 </li>
 <li><a href="../wall_texture/">wall_texture</a>  <sub>OPT</sub><ul>
 <li>Description: The feel, appearance, or consistency of a wall surface</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: popcorn None</li>
 </ul>
 </li>
@@ -1128,43 +989,43 @@
 </li>
 <li><a href="../water_feat_type/">water_feat_type</a>  <sub>OPT</sub><ul>
 <li>Description: The type of water feature present within the building being sampled</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: stream None</li>
 </ul>
 </li>
 <li><a href="../weekday/">weekday</a>  <sub>OPT</sub><ul>
 <li>Description: The day of the week when sampling occurred</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Sunday None</li>
 </ul>
 </li>
 <li><a href="../window_cond/">window_cond</a>  <sub>OPT</sub><ul>
 <li>Description: The physical condition of the window at the time of sampling</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: rupture None</li>
 </ul>
 </li>
 <li><a href="../window_cover/">window_cover</a>  <sub>OPT</sub><ul>
 <li>Description: The type of window covering</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: curtains None</li>
 </ul>
 </li>
 <li><a href="../window_horiz_pos/">window_horiz_pos</a>  <sub>OPT</sub><ul>
 <li>Description: The horizontal position of the window on the wall</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: middle None</li>
 </ul>
 </li>
 <li><a href="../window_loc/">window_loc</a>  <sub>OPT</sub><ul>
 <li>Description: The relative location of the window within the room</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: west None</li>
 </ul>
 </li>
 <li><a href="../window_mat/">window_mat</a>  <sub>OPT</sub><ul>
 <li>Description: The type of material used to finish a window</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: wood None</li>
 </ul>
 </li>
@@ -1188,13 +1049,13 @@
 </li>
 <li><a href="../window_type/">window_type</a>  <sub>OPT</sub><ul>
 <li>Description: The type of windows</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: fixed window None</li>
 </ul>
 </li>
 <li><a href="../window_vert_pos/">window_vert_pos</a>  <sub>OPT</sub><ul>
 <li>Description: The vertical position of the window on the wall</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: middle None</li>
 </ul>
 </li>
@@ -1205,45 +1066,44 @@
 </ul>
 </li>
 </ul>
-                
               
-              
-                
-
-
-              
-            </article>
+            </div>
           </div>
-        </div>
-      </main>
-      
-        
-<footer class="md-footer">
+          <footer>
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
-      
-    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
   </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.5cf3e710.min.js"></script>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
       
-    
-  </body>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
 </html>

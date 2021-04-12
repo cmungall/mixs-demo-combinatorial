@@ -1,252 +1,113 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Class: HydrocarbonResources-fluidsSwabs - MIxS6 (Draft/demo)</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
-    
-    
-      
-        <title>Class: HydrocarbonResources-fluidsSwabs - MIxS6 (Draft/demo)</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.77f3fd56.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.7fa14f5b.min.css">
-        
-      
-    
-    
-    
-      
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
-      
-    
-    
-    
-    
-      
-    
-    
-  </head>
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
   
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Class: HydrocarbonResources-fluidsSwabs";
+    var mkdocs_page_input_path = "HydrocarbonResources-fluidsSwabs.md";
+    var mkdocs_page_url = null;
+  </script>
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
-      
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#class-hydrocarbonresources-fluidsswabs" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-      
+</head>
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="MIxS6 (Draft/demo)" class="md-header__button md-logo" aria-label="MIxS6 (Draft/demo)">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+<body class="wy-body-for-nav" role="document">
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            MIxS6 (Draft/demo)
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Class: HydrocarbonResources-fluidsSwabs
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="md-header__options">
-      
-    </div>
+  <div class="wy-grid-for-nav">
+
     
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> MIxS6 (Draft/demo)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
 </div>
-    
-    
-  </nav>
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+      </div>
 
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="MIxS6 (Draft/demo)" class="md-nav__button md-logo" aria-label="MIxS6 (Draft/demo)">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
-
-    </a>
-    MIxS6 (Draft/demo)
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        Home
-      </a>
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#attributes" class="md-nav__link">
-    Attributes
-  </a>
-  
-    <nav class="md-nav" aria-label="Attributes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#own" class="md-nav__link">
-    Own
-  </a>
-  
-</li>
-        
-      </ul>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
     </nav>
-  
-</li>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
       
-    </ul>
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">MIxS6 (Draft/demo)</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Class: HydrocarbonResources-fluidsSwabs</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
   
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
               
-                
-                
                 <h1 id="class-hydrocarbonresources-fluidsswabs">Class: HydrocarbonResources-fluidsSwabs</h1>
 <p>hydrocarbon resources-fluids/swabs</p>
 <p>URI: <a href="https://w3id.org/mixs/vocab/HydrocarbonResources-fluidsSwabs">mixs.vocab:HydrocarbonResources-fluidsSwabs</a></p>
-<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[HydrocarbonResources-fluidsSwabs&#124;hcr:string%20%3F;hc_produced:string%20%3F;basin:string%20%3F;field:string%20%3F;reservoir:string%20%3F;hcr_temp:string%20%3F;tvdss_of_hcr_temp:string%20%3F;hcr_pressure:string%20%3F;tvdss_of_hcr_pressure:string%20%3F;lithology:string%20%3F;depos_env:string%20%3F;hcr_geol_age:string%20%3F;hcr_fw_salinity:string%20%3F;sulfate_fw:string%20%3F;vfa_fw:string%20%3F;prod_start_date:string%20%3F;prod_rate:string%20%3F;water_production_rate:string%20%3F;water_cut:string%20%3F;iwf:string%20%3F;add_recov_method:string%20%3F;iw_bt_date_well:string%20%3F;biocide:string%20%3F;biocide_admin_method:string%20%3F;chem_treatment:string%20%3F;chem_treatment_method:string%20%3F;samp_loc_corr_rate:string%20%3F;samp_well_name:string%20%3F;win:string%20%3F;samp_type:string%20%3F;samp_subtype:string%20%3F;samp_collection_point:string%20%3F;temp:string%20%3F;pressure:string%20%3F;oxy_stat_samp:string%20%3F;samp_preserv:string%20%3F;samp_transport_cond:string%20%3F;samp_store_temp:string%20%3F;samp_store_dur:string%20%3F;samp_store_loc:string%20%3F;samp_vol_we_dna_ext:string%20%3F;organism_count:string%20%3F;organism_count_qpcr_info:string%20%3F;ph:string%20%3F;samp_salinity:string%20%3F;alkalinity:string%20%3F;alkalinity_method:string%20%3F;sulfate:string%20%3F;sulfide:string%20%3F;tot_sulfur:string%20%3F;nitrate:string%20%3F;nitrite:string%20%3F;ammonium:string%20%3F;tot_nitro:string%20%3F;diss_iron:string%20%3F;sodium:string%20%3F;chloride:string%20%3F;potassium:string%20%3F;magnesium:string%20%3F;calcium:string%20%3F;tot_iron:string%20%3F;diss_org_carb:string%20%3F;diss_inorg_carb:string%20%3F;diss_inorg_phosp:string%20%3F;tot_phosp:string%20%3F;suspend_solids:string%20%3F;density:string%20%3F;diss_carb_dioxide:string%20%3F;diss_oxygen_fluid:string%20%3F;vfa:string%20%3F;benzene:string%20%3F;toluene:string%20%3F;ethylbenzene:string%20%3F;xylene:string%20%3F;api:string%20%3F;tan:string%20%3F;viscosity:string%20%3F;pour_point:string%20%3F;saturates_pc:string%20%3F;aromatics_pc:string%20%3F;resins_pc:string%20%3F;asphaltenes_pc:string%20%3F;misc_param:string%20%3F;additional_info:string%20%3F]" /></p>
+<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[HydrocarbonResources-fluidsSwabsMiuvig],[HydrocarbonResources-fluidsSwabsMisag],[HydrocarbonResources-fluidsSwabsMimarksS],[HydrocarbonResources-fluidsSwabsMimarksC],[HydrocarbonResources-fluidsSwabsMimag],[HydrocarbonResources-fluidsSwabsMigsVi],[HydrocarbonResources-fluidsSwabsMigsPl],[HydrocarbonResources-fluidsSwabsMigsOrg],[HydrocarbonResources-fluidsSwabsMigsEu],[HydrocarbonResources-fluidsSwabsMigsBa],[HydrocarbonResources-fluidsSwabsMe],[HydrocarbonResources-fluidsSwabs&#124;hcr:hcr_enum%20%3F;hc_produced:hc_produced_enum%20%3F;basin:string%20%3F;field:string%20%3F;reservoir:string%20%3F;hcr_temp:string%20%3F;tvdss_of_hcr_temp:string%20%3F;hcr_pressure:string%20%3F;tvdss_of_hcr_pressure:string%20%3F;lithology:lithology_enum%20%3F;depos_env:depos_env_enum%20%3F;hcr_geol_age:hcr_geol_age_enum%20%3F;hcr_fw_salinity:string%20%3F;sulfate_fw:string%20%3F;vfa_fw:string%20%3F;prod_start_date:string%20%3F;prod_rate:string%20%3F;water_production_rate:string%20%3F;water_cut:string%20%3F;iwf:string%20%3F;add_recov_method:add_recov_method_enum%20%3F;iw_bt_date_well:string%20%3F;biocide:string%20%3F;biocide_admin_method:string%20%3F;chem_treatment:string%20%3F;chem_treatment_method:string%20%3F;samp_loc_corr_rate:string%20%3F;samp_well_name:string%20%3F;win:string%20%3F;samp_type:samp_type_enum%20%3F;samp_subtype:samp_subtype_enum%20%3F;samp_collection_point:samp_collection_point_enum%20%3F;temp:string%20%3F;pressure:string%20%3F;oxy_stat_samp:oxy_stat_samp_enum%20%3F;samp_preserv:string%20%3F;samp_transport_cond:string%20%3F;samp_store_temp:string%20%3F;samp_store_dur:string%20%3F;samp_store_loc:string%20%3F;samp_vol_we_dna_ext:string%20%3F;organism_count:organism_count_enum%20%3F;organism_count_qpcr_info:string%20%3F;ph:string%20%3F;samp_salinity:string%20%3F;alkalinity:string%20%3F;alkalinity_method:string%20%3F;sulfate:string%20%3F;sulfide:string%20%3F;tot_sulfur:string%20%3F;nitrate:string%20%3F;nitrite:string%20%3F;ammonium:string%20%3F;tot_nitro:string%20%3F;diss_iron:string%20%3F;sodium:string%20%3F;chloride:string%20%3F;potassium:string%20%3F;magnesium:string%20%3F;calcium:string%20%3F;tot_iron:string%20%3F;diss_org_carb:string%20%3F;diss_inorg_carb:string%20%3F;diss_inorg_phosp:string%20%3F;tot_phosp:string%20%3F;suspend_solids:string%20%3F;density:string%20%3F;diss_carb_dioxide:string%20%3F;diss_oxygen_fluid:string%20%3F;vfa:string%20%3F;benzene:string%20%3F;toluene:string%20%3F;ethylbenzene:string%20%3F;xylene:string%20%3F;api:string%20%3F;tan:string%20%3F;viscosity:string%20%3F;pour_point:string%20%3F;saturates_pc:string%20%3F;aromatics_pc:string%20%3F;resins_pc:string%20%3F;asphaltenes_pc:string%20%3F;misc_param:string%20%3F;additional_info:string%20%3F]^-[HydrocarbonResources-fluidsSwabsMiuvig],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMisag],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMimarksS],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMimarksC],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMimag],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMigsVi],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMigsPl],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMigsOrg],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMigsEu],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMigsBa],[HydrocarbonResources-fluidsSwabs]^-[HydrocarbonResources-fluidsSwabsMe]" /></p>
+<h2 id="children">Children</h2>
+<ul>
+<li><a href="../HydrocarbonResources-fluidsSwabsMe/">HydrocarbonResources-fluidsSwabsMe</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with me</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMigsBa/">HydrocarbonResources-fluidsSwabsMigsBa</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with migs_ba</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMigsEu/">HydrocarbonResources-fluidsSwabsMigsEu</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with migs_eu</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMigsOrg/">HydrocarbonResources-fluidsSwabsMigsOrg</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with migs_org</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMigsPl/">HydrocarbonResources-fluidsSwabsMigsPl</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with migs_pl</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMigsVi/">HydrocarbonResources-fluidsSwabsMigsVi</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with migs_vi</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMimag/">HydrocarbonResources-fluidsSwabsMimag</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with mimag</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMimarksC/">HydrocarbonResources-fluidsSwabsMimarksC</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with mimarks_c</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMimarksS/">HydrocarbonResources-fluidsSwabsMimarksS</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with mimarks_s</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMisag/">HydrocarbonResources-fluidsSwabsMisag</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with misag</li>
+<li><a href="../HydrocarbonResources-fluidsSwabsMiuvig/">HydrocarbonResources-fluidsSwabsMiuvig</a> - Combinatorial checklist for hydrocarbon resources-fluids_swabs with miuvig</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by class</h2>
 <h2 id="attributes">Attributes</h2>
 <h3 id="own">Own</h3>
 <ul>
 <li><a href="../add_recov_method/">add_recov_method</a>  <sub>OPT</sub><ul>
 <li>Description: Additional (i.e. Secondary, tertiary, etc.) recovery methods deployed for increase of hydrocarbon recovery from resource and start date for each one of them. If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Polymer Addition;2018-06-21T14:30Z None</li>
 </ul>
 </li>
@@ -348,7 +209,7 @@
 </li>
 <li><a href="../depos_env/">depos_env</a>  <sub>OPT</sub><ul>
 <li>Description: Main depositional environment (https://en.wikipedia.org/wiki/Depositional_environment). If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Continental - Alluvial None</li>
 </ul>
 </li>
@@ -402,13 +263,13 @@
 </li>
 <li><a href="../hc_produced/">hc_produced</a>  <sub>OPT</sub><ul>
 <li>Description: Main hydrocarbon type produced from resource (i.e. Oil, gas, condensate, etc). If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Gas None</li>
 </ul>
 </li>
 <li><a href="../hcr/">hcr</a>  <sub>OPT</sub><ul>
 <li>Description: Main Hydrocarbon Resource type. The term "Hydrocarbon Resource" HCR defined as a natural environmental feature containing large amounts of hydrocarbons at high concentrations potentially suitable for commercial exploitation. This term should not be confused with the Hydrocarbon Occurrence term which also includes hydrocarbon-rich environments with currently limited commercial interest such as seeps, outcrops, gas hydrates etc. If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Oil Sand None</li>
 </ul>
 </li>
@@ -420,7 +281,7 @@
 </li>
 <li><a href="../hcr_geol_age/">hcr_geol_age</a>  <sub>OPT</sub><ul>
 <li>Description: Geological age of hydrocarbon resource (Additional info: https://en.wikipedia.org/wiki/Period_(geology)). If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Silurian None</li>
 </ul>
 </li>
@@ -450,7 +311,7 @@
 </li>
 <li><a href="../lithology/">lithology</a>  <sub>OPT</sub><ul>
 <li>Description: Hydrocarbon resource main lithology (Additional information: http://petrowiki.org/Lithology_and_rock_type_determination). If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Volcanic None</li>
 </ul>
 </li>
@@ -480,7 +341,7 @@
 </li>
 <li><a href="../organism_count/">organism_count</a>  <sub>OPT</sub><ul>
 <li>Description: Total cell count of any organism (or group of organisms) per gram, volume or area of sample, should include name of organism followed by count. The method that was used for the enumeration (e.g. qPCR, atp, mpn, etc.) Should also be provided. (example: total prokaryotes; 3.5e7 cells per ml; qpcr)</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: total prokaryotes;3.5e7 cells per milliliter;qPCR None</li>
 </ul>
 </li>
@@ -492,7 +353,7 @@
 </li>
 <li><a href="../oxy_stat_samp/">oxy_stat_samp</a>  <sub>OPT</sub><ul>
 <li>Description: Oxygenation status of sample</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: aerobic None</li>
 </ul>
 </li>
@@ -546,7 +407,7 @@
 </li>
 <li><a href="../samp_collection_point/">samp_collection_point</a>  <sub>OPT</sub><ul>
 <li>Description: Sampling point on the asset were sample was collected (e.g. Wellhead, storage tank, separator, etc). If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: well None</li>
 </ul>
 </li>
@@ -588,7 +449,7 @@
 </li>
 <li><a href="../samp_subtype/">samp_subtype</a>  <sub>OPT</sub><ul>
 <li>Description: Name of sample sub-type. For example if "sample type" is "Produced Water" then subtype could be "Oil Phase" or "Water Phase". If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: biofilm None</li>
 </ul>
 </li>
@@ -600,7 +461,7 @@
 </li>
 <li><a href="../samp_type/">samp_type</a>  <sub>OPT</sub><ul>
 <li>Description: Type of material (i.e. sample) collected. Includes types like core, rock trimmings, drill cuttings, piping section, coupon, pigging debris, solid deposit, produced fluid, produced water, injected water, swabs, etc. If "other" is specified, please propose entry in "additional info" field</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: solid deposit None</li>
 </ul>
 </li>
@@ -749,45 +610,44 @@
 </ul>
 </li>
 </ul>
-                
               
-              
-                
-
-
-              
-            </article>
+            </div>
           </div>
-        </div>
-      </main>
-      
-        
-<footer class="md-footer">
+          <footer>
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
-      
-    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
   </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.5cf3e710.min.js"></script>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
       
-    
-  </body>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
 </html>

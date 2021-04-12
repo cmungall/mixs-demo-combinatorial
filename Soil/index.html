@@ -1,246 +1,107 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Class: Soil - MIxS6 (Draft/demo)</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
-    
-    
-      
-        <title>Class: Soil - MIxS6 (Draft/demo)</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.77f3fd56.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.7fa14f5b.min.css">
-        
-      
-    
-    
-    
-      
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
-      
-    
-    
-    
-    
-      
-    
-    
-  </head>
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
   
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Class: Soil";
+    var mkdocs_page_input_path = "Soil.md";
+    var mkdocs_page_url = null;
+  </script>
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
-      
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#class-soil" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-      
+</head>
 
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="MIxS6 (Draft/demo)" class="md-header__button md-logo" aria-label="MIxS6 (Draft/demo)">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+<body class="wy-body-for-nav" role="document">
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            MIxS6 (Draft/demo)
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Class: Soil
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    <div class="md-header__options">
-      
-    </div>
+  <div class="wy-grid-for-nav">
+
     
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-      </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
-      <label class="md-search__icon md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> MIxS6 (Draft/demo)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
 </div>
-    
-    
-  </nav>
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
+      </div>
 
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="MIxS6 (Draft/demo)" class="md-nav__button md-logo" aria-label="MIxS6 (Draft/demo)">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
-
-    </a>
-    MIxS6 (Draft/demo)
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        Home
-      </a>
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#attributes" class="md-nav__link">
-    Attributes
-  </a>
-  
-    <nav class="md-nav" aria-label="Attributes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#own" class="md-nav__link">
-    Own
-  </a>
-  
-</li>
-        
-      </ul>
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
     </nav>
-  
-</li>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
       
-    </ul>
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">MIxS6 (Draft/demo)</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Class: Soil</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
   
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
               
-                
-                
                 <h1 id="class-soil">Class: Soil</h1>
 <p>soil</p>
 <p>URI: <a href="https://w3id.org/mixs/vocab/Soil">mixs.vocab:Soil</a></p>
-<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[Soil&#124;cur_land_use:string%20%3F;cur_vegetation:string%20%3F;cur_vegetation_meth:string%20%3F;previous_land_use:string%20%3F;previous_land_use_meth:string%20%3F;crop_rotation:string%20%3F;agrochem_addition:string%20%3F;tillage:string%20%3F;fire:string%20%3F;flooding:string%20%3F;extreme_event:string%20%3F;horizon:string%20%3F;horizon_meth:string%20%3F;sieving:string%20%3F;water_content:string%20%3F;water_content_soil_meth:string%20%3F;samp_vol_we_dna_ext:string%20%3F;pool_dna_extracts:string%20%3F;store_cond:string%20%3F;link_climate_info:string%20%3F;annual_temp:string%20%3F;season_temp:string%20%3F;annual_precpt:string%20%3F;season_precpt:string%20%3F;link_class_info:string%20%3F;fao_class:string%20%3F;local_class:string%20%3F;local_class_meth:string%20%3F;soil_type:string%20%3F;soil_type_meth:string%20%3F;slope_gradient:string%20%3F;slope_aspect:string%20%3F;profile_position:string%20%3F;drainage_class:string%20%3F;texture:string%20%3F;texture_meth:string%20%3F;ph:string%20%3F;ph_meth:string%20%3F;tot_org_carb:string%20%3F;tot_org_c_meth:string%20%3F;tot_nitro_content:string%20%3F;tot_nitro_content_meth:string%20%3F;microbial_biomass:string%20%3F;microbial_biomass_meth:string%20%3F;link_addit_analys:string%20%3F;extreme_salinity:string%20%3F;salinity_meth:string%20%3F;heavy_metals:string%20%3F;heavy_metals_meth:string%20%3F;al_sat:string%20%3F;al_sat_meth:string%20%3F;misc_param:string%20%3F]" /></p>
+<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[SoilMiuvig],[SoilMisag],[SoilMimarksS],[SoilMimarksC],[SoilMimag],[SoilMigsVi],[SoilMigsPl],[SoilMigsOrg],[SoilMigsEu],[SoilMigsBa],[SoilMe],[Soil&#124;cur_land_use:cur_land_use_enum%20%3F;cur_vegetation:string%20%3F;cur_vegetation_meth:string%20%3F;previous_land_use:string%20%3F;previous_land_use_meth:string%20%3F;crop_rotation:string%20%3F;agrochem_addition:string%20%3F;tillage:tillage_enum%20%3F;fire:string%20%3F;flooding:string%20%3F;extreme_event:string%20%3F;horizon:horizon_enum%20%3F;horizon_meth:string%20%3F;sieving:string%20%3F;water_content:string%20%3F;water_content_soil_meth:string%20%3F;samp_vol_we_dna_ext:string%20%3F;pool_dna_extracts:string%20%3F;store_cond:string%20%3F;link_climate_info:string%20%3F;annual_temp:string%20%3F;season_temp:string%20%3F;annual_precpt:string%20%3F;season_precpt:string%20%3F;link_class_info:string%20%3F;fao_class:fao_class_enum%20%3F;local_class:string%20%3F;local_class_meth:string%20%3F;soil_type:string%20%3F;soil_type_meth:string%20%3F;slope_gradient:string%20%3F;slope_aspect:string%20%3F;profile_position:profile_position_enum%20%3F;drainage_class:drainage_class_enum%20%3F;texture:string%20%3F;texture_meth:string%20%3F;ph:string%20%3F;ph_meth:string%20%3F;tot_org_carb:string%20%3F;tot_org_c_meth:string%20%3F;tot_nitro_content:string%20%3F;tot_nitro_content_meth:string%20%3F;microbial_biomass:string%20%3F;microbial_biomass_meth:string%20%3F;link_addit_analys:string%20%3F;extreme_salinity:string%20%3F;salinity_meth:string%20%3F;heavy_metals:string%20%3F;heavy_metals_meth:string%20%3F;al_sat:string%20%3F;al_sat_meth:string%20%3F;misc_param:string%20%3F]^-[SoilMiuvig],[Soil]^-[SoilMisag],[Soil]^-[SoilMimarksS],[Soil]^-[SoilMimarksC],[Soil]^-[SoilMimag],[Soil]^-[SoilMigsVi],[Soil]^-[SoilMigsPl],[Soil]^-[SoilMigsOrg],[Soil]^-[SoilMigsEu],[Soil]^-[SoilMigsBa],[Soil]^-[SoilMe]" /></p>
+<h2 id="children">Children</h2>
+<ul>
+<li><a href="../SoilMe/">SoilMe</a> - Combinatorial checklist for soil with me</li>
+<li><a href="../SoilMigsBa/">SoilMigsBa</a> - Combinatorial checklist for soil with migs_ba</li>
+<li><a href="../SoilMigsEu/">SoilMigsEu</a> - Combinatorial checklist for soil with migs_eu</li>
+<li><a href="../SoilMigsOrg/">SoilMigsOrg</a> - Combinatorial checklist for soil with migs_org</li>
+<li><a href="../SoilMigsPl/">SoilMigsPl</a> - Combinatorial checklist for soil with migs_pl</li>
+<li><a href="../SoilMigsVi/">SoilMigsVi</a> - Combinatorial checklist for soil with migs_vi</li>
+<li><a href="../SoilMimag/">SoilMimag</a> - Combinatorial checklist for soil with mimag</li>
+<li><a href="../SoilMimarksC/">SoilMimarksC</a> - Combinatorial checklist for soil with mimarks_c</li>
+<li><a href="../SoilMimarksS/">SoilMimarksS</a> - Combinatorial checklist for soil with mimarks_s</li>
+<li><a href="../SoilMisag/">SoilMisag</a> - Combinatorial checklist for soil with misag</li>
+<li><a href="../SoilMiuvig/">SoilMiuvig</a> - Combinatorial checklist for soil with miuvig</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by class</h2>
 <h2 id="attributes">Attributes</h2>
 <h3 id="own">Own</h3>
 <ul>
@@ -282,7 +143,7 @@
 </li>
 <li><a href="../cur_land_use/">cur_land_use</a>  <sub>OPT</sub><ul>
 <li>Description: Present state of sample site</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: conifers None</li>
 </ul>
 </li>
@@ -300,7 +161,7 @@
 </li>
 <li><a href="../drainage_class/">drainage_class</a>  <sub>OPT</sub><ul>
 <li>Description: Drainage classification from a standard system such as the USDA system</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: well None</li>
 </ul>
 </li>
@@ -318,7 +179,7 @@
 </li>
 <li><a href="../fao_class/">fao_class</a>  <sub>OPT</sub><ul>
 <li>Description: Soil classification from the FAO World Reference Database for Soil Resources. The list can be found at http://www.fao.org/nr/land/sols/soil/wrb-soil-maps/reference-groups</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: Luvisols None</li>
 </ul>
 </li>
@@ -348,7 +209,7 @@
 </li>
 <li><a href="../horizon/">horizon</a>  <sub>OPT</sub><ul>
 <li>Description: Specific layer in the land area which measures parallel to the soil surface and possesses physical characteristics which differ from the layers above and beneath</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: A horizon None</li>
 </ul>
 </li>
@@ -438,7 +299,7 @@
 </li>
 <li><a href="../profile_position/">profile_position</a>  <sub>OPT</sub><ul>
 <li>Description: Cross-sectional position in the hillslope where sample was collected.sample area position in relation to surrounding areas</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: summit None</li>
 </ul>
 </li>
@@ -516,7 +377,7 @@
 </li>
 <li><a href="../tillage/">tillage</a>  <sub>OPT</sub><ul>
 <li>Description: Note method(s) used for tilling</li>
-<li>range: <a href="../types/String/">String</a></li>
+<li>range: </li>
 <li>Example: chisel None</li>
 </ul>
 </li>
@@ -557,45 +418,44 @@
 </ul>
 </li>
 </ul>
-                
               
-              
-                
-
-
-              
-            </article>
+            </div>
           </div>
-        </div>
-      </main>
-      
-        
-<footer class="md-footer">
+          <footer>
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
-      
-    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
   </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.5cf3e710.min.js"></script>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
       
-    
-  </body>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
 </html>

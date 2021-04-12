@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Class: AirMimag - MIxS6 (Draft/demo)</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Class: AirMimag";
+    var mkdocs_page_input_path = "AirMimag.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> MIxS6 (Draft/demo)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">MIxS6 (Draft/demo)</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Class: AirMimag</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="class-airmimag">Class: AirMimag</h1>
+<p>Combinatorial checklist for air with mimag</p>
+<p>URI: <a href="https://w3id.org/mixs/vocab/AirMimag">mixs.vocab:AirMimag</a></p>
+<p><img alt="img" src="http://yuml.me/diagram/nofunky;dir:TB/class/[Mimag],[AirMimag&#124;barometric_press(i):string%20%3F;carb_dioxide(i):string%20%3F;carb_monoxide(i):string%20%3F;chem_administration(i):string%20%3F;humidity(i):string%20%3F;methane(i):string%20%3F;misc_param(i):string%20%3F;organism_count(i):organism_count_enum%20%3F;oxygen(i):string%20%3F;oxy_stat_samp(i):oxy_stat_samp_enum%20%3F;perturbation(i):string%20%3F;pollutants(i):string%20%3F;resp_part_matter(i):string%20%3F;samp_salinity(i):string%20%3F;samp_store_dur(i):string%20%3F;samp_store_loc(i):string%20%3F;samp_store_temp(i):string%20%3F;samp_vol_we_dna_ext(i):string%20%3F;solar_irradiance(i):string%20%3F;temp(i):string%20%3F;ventilation_rate(i):string%20%3F;ventilation_type(i):string%20%3F;volatile_org_comp(i):string%20%3F;wind_direction(i):string%20%3F;wind_speed(i):string%20%3F]uses%20-.-&gt;[Mimag],[Air]^-[AirMimag],[Air]" /></p>
+<h2 id="parents">Parents</h2>
+<ul>
+<li>is_a: <a href="../Air/">Air</a> - air</li>
+</ul>
+<h2 id="uses-mixins">Uses Mixins</h2>
+<ul>
+<li>mixin: <a href="../Mimag/">Mimag</a> - mimag Checklist</li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<h3 id="inherited-from-air">Inherited from air:</h3>
+<ul>
+<li><a href="../barometric_press/">barometric_press</a>  <sub>OPT</sub><ul>
+<li>Description: Force per unit area exerted against a surface by the weight of air above that surface</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 5 millibar None</li>
+</ul>
+</li>
+<li><a href="../carb_dioxide/">carb_dioxide</a>  <sub>OPT</sub><ul>
+<li>Description: Carbon dioxide (gas) amount or concentration at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 410 parts per million None</li>
+</ul>
+</li>
+<li><a href="../carb_monoxide/">carb_monoxide</a>  <sub>OPT</sub><ul>
+<li>Description: Carbon monoxide (gas) amount or concentration at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 0.1 parts per million None</li>
+</ul>
+</li>
+<li><a href="../chem_administration/">chem_administration</a>  <sub>OPT</sub><ul>
+<li>Description: List of chemical compounds administered to the host or site where sampling occurred, and when (e.g. Antibiotics, n fertilizer, air filter); can include multiple compounds. For chemical entities of biological interest ontology (chebi) (v 163), http://purl.bioontology.org/ontology/chebi</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: agar [CHEBI:2509];2018-05-11T20:00Z None</li>
+</ul>
+</li>
+<li><a href="../humidity/">humidity</a>  <sub>OPT</sub><ul>
+<li>Description: Amount of water vapour in the air, at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 25 gram per cubic meter None</li>
+</ul>
+</li>
+<li><a href="../methane/">methane</a>  <sub>OPT</sub><ul>
+<li>Description: Methane (gas) amount or concentration at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 1800 parts per billion None</li>
+</ul>
+</li>
+<li><a href="../misc_param/">misc_param</a>  <sub>OPT</sub><ul>
+<li>Description: Any other measurement performed or parameter collected, that is not listed here</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: Bicarbonate ion concentration;2075 micromole per kilogram None</li>
+</ul>
+</li>
+<li><a href="../organism_count/">organism_count</a>  <sub>OPT</sub><ul>
+<li>Description: Total cell count of any organism (or group of organisms) per gram, volume or area of sample, should include name of organism followed by count. The method that was used for the enumeration (e.g. qPCR, atp, mpn, etc.) Should also be provided. (example: total prokaryotes; 3.5e7 cells per ml; qpcr)</li>
+<li>range: </li>
+<li>Example: total prokaryotes;3.5e7 cells per milliliter;qPCR None</li>
+</ul>
+</li>
+<li><a href="../oxy_stat_samp/">oxy_stat_samp</a>  <sub>OPT</sub><ul>
+<li>Description: Oxygenation status of sample</li>
+<li>range: </li>
+<li>Example: aerobic None</li>
+</ul>
+</li>
+<li><a href="../oxygen/">oxygen</a>  <sub>OPT</sub><ul>
+<li>Description: Oxygen (gas) amount or concentration at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 600 parts per million None</li>
+</ul>
+</li>
+<li><a href="../perturbation/">perturbation</a>  <sub>OPT</sub><ul>
+<li>Description: Type of perturbation, e.g. chemical administration, physical disturbance, etc., coupled with perturbation regimen including how many times the perturbation was repeated, how long each perturbation lasted, and the start and end time of the entire perturbation period; can include multiple perturbation types</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: antibiotic addition;R2/2018-05-11T14:30Z/2018-05-11T19:30Z/P1H30M None</li>
+</ul>
+</li>
+<li><a href="../pollutants/">pollutants</a>  <sub>OPT</sub><ul>
+<li>Description: Pollutant types and, amount or concentrations measured at the time of sampling; can report multiple pollutants by entering numeric values preceded by name of pollutant</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: lead;0.15 microgram per cubic meter None</li>
+</ul>
+</li>
+<li><a href="../resp_part_matter/">resp_part_matter</a>  <sub>OPT</sub><ul>
+<li>Description: Concentration of substances that remain suspended in the air, and comprise mixtures of organic and inorganic substances (PM10 and PM2.5); can report multiple PM's by entering numeric values preceded by name of PM</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: PM2.5;10 microgram per cubic meter None</li>
+</ul>
+</li>
+<li><a href="../samp_salinity/">samp_salinity</a>  <sub>OPT</sub><ul>
+<li>Description: Salinity is the total concentration of all dissolved salts in a liquid or solid (in the form of an extract obtained by centrifugation) sample. While salinity can be measured by a complete chemical analysis, this method is difficult and time consuming. More often, it is instead derived from the conductivity measurement. This is known as practical salinity. These derivations compare the specific conductance of the sample to a salinity standard such as seawater</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 1 milligram per liter None</li>
+</ul>
+</li>
+<li><a href="../samp_store_dur/">samp_store_dur</a>  <sub>OPT</sub><ul>
+<li>Description: Duration for which the sample was stored</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: P1Y6M None</li>
+</ul>
+</li>
+<li><a href="../samp_store_loc/">samp_store_loc</a>  <sub>OPT</sub><ul>
+<li>Description: Location at which sample was stored, usually name of a specific freezer/room</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: Freezer no:5 None</li>
+</ul>
+</li>
+<li><a href="../samp_store_temp/">samp_store_temp</a>  <sub>OPT</sub><ul>
+<li>Description: Temperature at which sample was stored, e.g. -80 degree Celsius</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: -80 degree Celsius None</li>
+</ul>
+</li>
+<li><a href="../samp_vol_we_dna_ext/">samp_vol_we_dna_ext</a>  <sub>OPT</sub><ul>
+<li>Description: Volume (ml), weight (g) of processed sample, or surface area swabbed from sample for DNA extraction</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 1500 milliliter None</li>
+</ul>
+</li>
+<li><a href="../solar_irradiance/">solar_irradiance</a>  <sub>OPT</sub><ul>
+<li>Description: The amount of solar energy that arrives at a specific area of a surface during a specific time interval</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 1.36 kilowatts per square meter per day None</li>
+</ul>
+</li>
+<li><a href="../temp/">temp</a>  <sub>OPT</sub><ul>
+<li>Description: Temperature of the sample at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 25 degree Celsius None</li>
+</ul>
+</li>
+<li><a href="../ventilation_rate/">ventilation_rate</a>  <sub>OPT</sub><ul>
+<li>Description: Ventilation rate of the system in the sampled premises</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 750 cubic meter per minute None</li>
+</ul>
+</li>
+<li><a href="../ventilation_type/">ventilation_type</a>  <sub>OPT</sub><ul>
+<li>Description: Ventilation system used in the sampled premises</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: Operable windows None</li>
+</ul>
+</li>
+<li><a href="../volatile_org_comp/">volatile_org_comp</a>  <sub>OPT</sub><ul>
+<li>Description: Concentration of carbon-based chemicals that easily evaporate at room temperature; can report multiple volatile organic compounds by entering numeric values preceded by name of compound</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: formaldehyde;500 nanogram per liter None</li>
+</ul>
+</li>
+<li><a href="../wind_direction/">wind_direction</a>  <sub>OPT</sub><ul>
+<li>Description: Wind direction is the direction from which a wind originates</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: Northwest None</li>
+</ul>
+</li>
+<li><a href="../wind_speed/">wind_speed</a>  <sub>OPT</sub><ul>
+<li>Description: Speed of wind measured at the time of sampling</li>
+<li>range: <a href="../types/String/">String</a></li>
+<li>Example: 21 kilometer per hour None</li>
+</ul>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
