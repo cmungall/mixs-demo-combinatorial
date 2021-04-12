@@ -3,7 +3,7 @@ TGTS = graphql jsonschema docs shex owl rdf csv graphql python
 #EXTS = _datamodel.py .graphql .schema.json .owl.ttl .ttl -docs .shex
 SRC_DIR = src
 SCHEMA_DIR = $(SRC_DIR)/schema
-SCHEMA_SRC = $(SCHEMA_DIR)/$(SCHEMA_NAME).linkml.yaml
+SCHEMA_SRC = $(SCHEMA_DIR)/$(SCHEMA_NAME).yaml
 
 all: $(patsubst %,gen-%,$(TGTS))
 clean:
