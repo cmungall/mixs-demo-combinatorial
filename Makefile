@@ -68,6 +68,10 @@ gen-linkml: target/linkml/$(SCHEMA_NAME).yaml
 target/linkml/%.yaml: $(SCHEMA_SRC) tdir-limkml
 	cp $< > $@
 
+# TODO: https://github.com/linkml/linkml/issues/165
+target/csv/mixs.summary.tsv: $(SCHEMA_SRC) tdir-csv
+	python3  ../linkml/linkml/generators/summarygen.py $<  > $@
+
 docserve:
 	mkdocs serve
 
